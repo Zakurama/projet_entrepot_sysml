@@ -101,12 +101,12 @@
   <Requirements:Requirement xmi:id="_Zrl9MOIJEe-UF8hnN6RWHw" base_NamedElement="_ZrkIAOIJEe-UF8hnN6RWHw" id="1.1.3" text="Les robots doivent pouvoir se déplacer dans l'entrepôt." base_Class="_ZrkIAOIJEe-UF8hnN6RWHw"/>
   <Requirements:Requirement xmi:id="_q65h0OIJEe-UF8hnN6RWHw" base_NamedElement="_q63FkOIJEe-UF8hnN6RWHw" id="1.1" text="Le système doit fonctionner avec une flotte de robots mobiles." base_Class="_q63FkOIJEe-UF8hnN6RWHw"/>
   <Requirements:Requirement xmi:id="_zzZzkOIJEe-UF8hnN6RWHw" base_NamedElement="_zzX-YOIJEe-UF8hnN6RWHw" id="1.1.4" text="Les robots ne doivent pas se croiser dans les allées de l'entrepôt" base_Class="_zzX-YOIJEe-UF8hnN6RWHw"/>
-  <Requirements:Requirement xmi:id="_DKOMkOIKEe-UF8hnN6RWHw" base_NamedElement="_DKMXYOIKEe-UF8hnN6RWHw" id="1.3" text="Le système doit être capble de fonctionner seul, sans intervention extérieure." base_Class="_DKMXYOIKEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_DKOMkOIKEe-UF8hnN6RWHw" base_NamedElement="_DKMXYOIKEe-UF8hnN6RWHw" id="1.3" text="Le système doit être capable de fonctionner seul, sans intervention extérieure." base_Class="_DKMXYOIKEe-UF8hnN6RWHw"/>
   <Requirements:Requirement xmi:id="_N8LTQOIKEe-UF8hnN6RWHw" base_NamedElement="_N8JeEOIKEe-UF8hnN6RWHw" id="1.1.5" text="Le nombre de robot doit pouvoir être ajustable." base_Class="_N8JeEOIKEe-UF8hnN6RWHw"/>
   <Requirements:Requirement xmi:id="_ThIJkOIKEe-UF8hnN6RWHw" base_NamedElement="_ThGUYOIKEe-UF8hnN6RWHw" id="2" text="Le système doit permettre l'intervention d'un technicien de maintenance." base_Class="_ThGUYOIKEe-UF8hnN6RWHw"/>
   <Requirements:Refine xmi:id="_P8gE4OINEe-UF8hnN6RWHw" base_DirectedRelationship="_P8dBkOINEe-UF8hnN6RWHw" base_Abstraction="_P8dBkOINEe-UF8hnN6RWHw"/>
   <Requirements:Requirement xmi:id="_svwN0OINEe-UF8hnN6RWHw" base_NamedElement="_svtxkOINEe-UF8hnN6RWHw" id="1.1.2.1" text="Les robots doivent pouvoir transporter 0,1 ou 2 objets." base_Class="_svtxkOINEe-UF8hnN6RWHw"/>
   <Requirements:Refine xmi:id="_5oOVEOINEe-UF8hnN6RWHw" base_DirectedRelationship="_5oL40OINEe-UF8hnN6RWHw" base_Abstraction="_5oL40OINEe-UF8hnN6RWHw"/>
-  <Requirements:Requirement xmi:id="_QK5QwOIOEe-UF8hnN6RWHw" base_NamedElement="_QK20gOIOEe-UF8hnN6RWHw" id="1.2.2.1" text="Le flux des robots doit être le plus optimisé possible." base_Class="_QK20gOIOEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_QK5QwOIOEe-UF8hnN6RWHw" base_NamedElement="_QK20gOIOEe-UF8hnN6RWHw" id="1.2.2.1" text="L'assignation des robots doit être la plus équitable possible en minimisant les passages dans les allées.&#xD;&#xA;" base_Class="_QK20gOIOEe-UF8hnN6RWHw"/>
   <Requirements:Refine xmi:id="_ekxgYOIOEe-UF8hnN6RWHw" base_DirectedRelationship="_ekvrMOIOEe-UF8hnN6RWHw" base_Abstraction="_ekvrMOIOEe-UF8hnN6RWHw"/>
 </xmi:XMI>
