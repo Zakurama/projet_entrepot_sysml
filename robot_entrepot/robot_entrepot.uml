@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Actors="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Block="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuTJpskEeyRkvq7aCLpdg http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuStZskEeyRkvq7aCLpdg">
+  <uml:Model xmi:id="_bcsxoOINEe-EAu7TQH7SBw" name="robot_entrepot">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_bpcNIOINEe-EAu7TQH7SBw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_bqQsgOINEe-EAu7TQH7SBw">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="__eN4EOINEe-EAu7TQH7SBw" name="contexte">
+      <packagedElement xmi:type="uml:Class" xmi:id="_WU1DcOIOEe-EAu7TQH7SBw" name="Système de gestion logistique avec robots Ultimate"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_CdzjwOIQEe-EAu7TQH7SBw" name="Opérateur logistique"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_EetrkOIQEe-EAu7TQH7SBw" name="Technicien de maintenance"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_HQIDQOIQEe-EAu7TQH7SBw" memberEnd="_HQLtoOIQEe-EAu7TQH7SBw _HQMUsOIQEe-EAu7TQH7SBw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HQKfgOIQEe-EAu7TQH7SBw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HQKfgeIQEe-EAu7TQH7SBw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_HQLtoOIQEe-EAu7TQH7SBw" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_HQIDQOIQEe-EAu7TQH7SBw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_HQMUsOIQEe-EAu7TQH7SBw" name="opérateur logistique" type="_CdzjwOIQEe-EAu7TQH7SBw" association="_HQIDQOIQEe-EAu7TQH7SBw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_LLWisOIQEe-EAu7TQH7SBw" memberEnd="_LLXw0uIQEe-EAu7TQH7SBw _LLYX4OIQEe-EAu7TQH7SBw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LLXw0OIQEe-EAu7TQH7SBw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LLXw0eIQEe-EAu7TQH7SBw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_LLXw0uIQEe-EAu7TQH7SBw" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_LLWisOIQEe-EAu7TQH7SBw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_LLYX4OIQEe-EAu7TQH7SBw" name="technicien de maintenance" type="_EetrkOIQEe-EAu7TQH7SBw" association="_LLWisOIQEe-EAu7TQH7SBw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_dJI98OIQEe-EAu7TQH7SBw" name="Rayonnage"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mq9ScOIQEe-EAu7TQH7SBw" name="Bacs de collecte"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lcMZQOIQEe-EAu7TQH7SBw" name="Système de localisation"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_wSSjoOIREe-EAu7TQH7SBw" memberEnd="_wSU_4OIREe-EAu7TQH7SBw _wSW1EOIREe-EAu7TQH7SBw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wSUY0OIREe-EAu7TQH7SBw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wSUY0eIREe-EAu7TQH7SBw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_wSU_4OIREe-EAu7TQH7SBw" name="système de localisation" type="_lcMZQOIQEe-EAu7TQH7SBw" association="_wSSjoOIREe-EAu7TQH7SBw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_wSW1EOIREe-EAu7TQH7SBw" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_wSSjoOIREe-EAu7TQH7SBw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xbSzEOIREe-EAu7TQH7SBw" memberEnd="_xbV2YOIREe-EAu7TQH7SBw _xbXEgOIREe-EAu7TQH7SBw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xbVPUOIREe-EAu7TQH7SBw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xbVPUeIREe-EAu7TQH7SBw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xbV2YOIREe-EAu7TQH7SBw" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_xbSzEOIREe-EAu7TQH7SBw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xbXEgOIREe-EAu7TQH7SBw" name="bacs de collecte" type="_mq9ScOIQEe-EAu7TQH7SBw" association="_xbSzEOIREe-EAu7TQH7SBw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yWnL0OIREe-EAu7TQH7SBw" memberEnd="_yWpBAOIREe-EAu7TQH7SBw _yWpoEOIREe-EAu7TQH7SBw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yWoZ8OIREe-EAu7TQH7SBw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yWoZ8eIREe-EAu7TQH7SBw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yWpBAOIREe-EAu7TQH7SBw" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_yWnL0OIREe-EAu7TQH7SBw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yWpoEOIREe-EAu7TQH7SBw" name="rayonnage" type="_dJI98OIQEe-EAu7TQH7SBw" association="_yWnL0OIREe-EAu7TQH7SBw"/>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_SJEiwOIQEe-EAu7TQH7SBw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SJFJ0OIQEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuSgJskEeyRkvq7aCLpdg"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_11_5EAPbeta_be00301_1147434586638_637562_1900"/>
+      </profileApplication>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bhr_UOINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bhw30OINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpLHYOINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpLucOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpQm8OINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpROAOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpR1EOINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpR1EeINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpTDMOINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpTqQOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpU4YOINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpVfcOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpWGgOINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpWtkOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpXUoOINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpXUoeINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpYiwOINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpYiweINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpZw4OINEe-EAu7TQH7SBw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpaX8OINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Block:System xmi:id="_XJNb0OIQEe-EAu7TQH7SBw" base_Class="_WU1DcOIOEe-EAu7TQH7SBw"/>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Sensor xmi:id="_xYnH8OIQEe-EAu7TQH7SBw" base_Class="_lcMZQOIQEe-EAu7TQH7SBw"/>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_iBafAOIREe-EAu7TQH7SBw" base_Class="_mq9ScOIQEe-EAu7TQH7SBw"/>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_kmE0IOIREe-EAu7TQH7SBw" base_Class="_dJI98OIQEe-EAu7TQH7SBw"/>
+</xmi:XMI>
