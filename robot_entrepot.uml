@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_Itm5cOIGEe-UF8hnN6RWHw" name="robot_entrepot">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Iy5CEOIGEe-UF8hnN6RWHw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_IzL9AOIGEe-UF8hnN6RWHw">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_auFcUOIGEe-UF8hnN6RWHw" name="Diagrammes">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cB8Q4OIGEe-UF8hnN6RWHw" name="03 - Exigences">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UC2d8OIHEe-UF8hnN6RWHw" name="Trier des objets">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_q63FkOIJEe-UF8hnN6RWHw" name="Flotte de robots">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_N8JeEOIKEe-UF8hnN6RWHw" name="Nombre de robots"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_zzX-YOIJEe-UF8hnN6RWHw" name="Croisements"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ZrkIAOIJEe-UF8hnN6RWHw" name="Déplacement entrepôt"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_f4FxIOIIEe-UF8hnN6RWHw" name="Transport objets"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_sizwQOIIEe-UF8hnN6RWHw" name="Unité centrale">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_KdpzYOIJEe-UF8hnN6RWHw" name="Gestion des sotcks"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_QJDP8OIJEe-UF8hnN6RWHw" name="Gestion des articles"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_DKMXYOIKEe-UF8hnN6RWHw" name="Autonomie"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ThGUYOIKEe-UF8hnN6RWHw" name="Maintenance"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Pt7PoOIIEe-UF8hnN6RWHw" name="Type de robot"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_P8dBkOINEe-UF8hnN6RWHw" name="Refine7" client="_Pt7PoOIIEe-UF8hnN6RWHw" supplier="_q63FkOIJEe-UF8hnN6RWHw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_svtxkOINEe-UF8hnN6RWHw" name="Nombre d'objets transportables"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_5oL40OINEe-UF8hnN6RWHw" name="Refine5" client="_svtxkOINEe-UF8hnN6RWHw" supplier="_f4FxIOIIEe-UF8hnN6RWHw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QK20gOIOEe-UF8hnN6RWHw" name="Optimisation des flux"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ekvrMOIOEe-UF8hnN6RWHw" name="Refine7" client="_QK20gOIOEe-UF8hnN6RWHw" supplier="_QJDP8OIJEe-UF8hnN6RWHw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iv4xYOIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iv9p4OIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iyv4IOIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iyv4IeIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iy0woOIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iy0woeIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iy1XsOIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iy1XseIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iy1-wOIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iy1-weIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iy1-wuIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iy2l0OIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iy2l0eIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iy2l0uIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iy2l0-IGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iy3M4OIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iy3M4eIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iy3M4uIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Iy3z8OIGEe-UF8hnN6RWHw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Iy3z8eIGEe-UF8hnN6RWHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_UC9LoOIHEe-UF8hnN6RWHw" base_NamedElement="_UC2d8OIHEe-UF8hnN6RWHw" id="1" text="Le système doit être capable de trier des produits dans un entrepôt." base_Class="_UC2d8OIHEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_Pt9r4OIIEe-UF8hnN6RWHw" base_NamedElement="_Pt7PoOIIEe-UF8hnN6RWHw" id="1.1.1" text="Le système doit utiliser des robots de type &quot;Ultimate&quot;." base_Class="_Pt7PoOIIEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_f4INYOIIEe-UF8hnN6RWHw" base_NamedElement="_f4FxIOIIEe-UF8hnN6RWHw" id="1.1.2" text="Chaque robot doit pouvoir transporter plusieurs objets." base_Class="_f4FxIOIIEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_si1lcOIIEe-UF8hnN6RWHw" base_NamedElement="_sizwQOIIEe-UF8hnN6RWHw" id="1.2" text="L'ensemble du système doit être piloté par une unité centrale." base_Class="_sizwQOIIEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_KdsPoOIJEe-UF8hnN6RWHw" base_NamedElement="_KdpzYOIJEe-UF8hnN6RWHw" id="1.2.1" text="L'unité centrale doit gérer l'ensemble des stocks." base_Class="_KdpzYOIJEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_QJFFIOIJEe-UF8hnN6RWHw" base_NamedElement="_QJDP8OIJEe-UF8hnN6RWHw" id="1.2.2" text="L'unité centrale doit assigner à chaque robot la gestion de chaque article." base_Class="_QJDP8OIJEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_Zrl9MOIJEe-UF8hnN6RWHw" base_NamedElement="_ZrkIAOIJEe-UF8hnN6RWHw" id="1.1.3" text="Les robots doivent pouvoir se déplacer dans l'entrepôt." base_Class="_ZrkIAOIJEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_q65h0OIJEe-UF8hnN6RWHw" base_NamedElement="_q63FkOIJEe-UF8hnN6RWHw" id="1.1" text="Le système doit fonctionner avec une flotte de robots mobiles." base_Class="_q63FkOIJEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_zzZzkOIJEe-UF8hnN6RWHw" base_NamedElement="_zzX-YOIJEe-UF8hnN6RWHw" id="1.1.4" text="Les robots ne doivent pas se croiser dans les allées de l'entrepôt" base_Class="_zzX-YOIJEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_DKOMkOIKEe-UF8hnN6RWHw" base_NamedElement="_DKMXYOIKEe-UF8hnN6RWHw" id="1.3" text="Le système doit être capble de fonctionner seul, sans intervention extérieure." base_Class="_DKMXYOIKEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_N8LTQOIKEe-UF8hnN6RWHw" base_NamedElement="_N8JeEOIKEe-UF8hnN6RWHw" id="1.1.5" text="Le nombre de robot doit pouvoir être ajustable." base_Class="_N8JeEOIKEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_ThIJkOIKEe-UF8hnN6RWHw" base_NamedElement="_ThGUYOIKEe-UF8hnN6RWHw" id="2" text="Le système doit permettre l'intervention d'un technicien de maintenance." base_Class="_ThGUYOIKEe-UF8hnN6RWHw"/>
+  <Requirements:Refine xmi:id="_P8gE4OINEe-UF8hnN6RWHw" base_DirectedRelationship="_P8dBkOINEe-UF8hnN6RWHw" base_Abstraction="_P8dBkOINEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_svwN0OINEe-UF8hnN6RWHw" base_NamedElement="_svtxkOINEe-UF8hnN6RWHw" id="1.1.2.1" text="Les robots doivent pouvoir transporter 0,1 ou 2 objets." base_Class="_svtxkOINEe-UF8hnN6RWHw"/>
+  <Requirements:Refine xmi:id="_5oOVEOINEe-UF8hnN6RWHw" base_DirectedRelationship="_5oL40OINEe-UF8hnN6RWHw" base_Abstraction="_5oL40OINEe-UF8hnN6RWHw"/>
+  <Requirements:Requirement xmi:id="_QK5QwOIOEe-UF8hnN6RWHw" base_NamedElement="_QK20gOIOEe-UF8hnN6RWHw" id="1.2.2.1" text="Le flux des robots doit être le plus optimisé possible." base_Class="_QK20gOIOEe-UF8hnN6RWHw"/>
+  <Requirements:Refine xmi:id="_ekxgYOIOEe-UF8hnN6RWHw" base_DirectedRelationship="_ekvrMOIOEe-UF8hnN6RWHw" base_Abstraction="_ekvrMOIOEe-UF8hnN6RWHw"/>
+</xmi:XMI>
