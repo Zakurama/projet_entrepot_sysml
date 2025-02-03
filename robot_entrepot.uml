@@ -49,6 +49,14 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_yWpBAOIREe-EAu7TQH7SBw" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_yWnL0OIREe-EAu7TQH7SBw"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_yWpoEOIREe-EAu7TQH7SBw" name="rayonnage" type="_dJI98OIQEe-EAu7TQH7SBw" association="_yWnL0OIREe-EAu7TQH7SBw"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_uumwcOJrEe-A1usWO7GmQQ" name="Installateur"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_zmNYkOJrEe-A1usWO7GmQQ" memberEnd="_zmV7cOJrEe-A1usWO7GmQQ _zmXJkOJrEe-A1usWO7GmQQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zmS4IOJrEe-A1usWO7GmQQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zmUGQOJrEe-A1usWO7GmQQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_zmV7cOJrEe-A1usWO7GmQQ" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_zmNYkOJrEe-A1usWO7GmQQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_zmXJkOJrEe-A1usWO7GmQQ" name="installateur" type="_uumwcOJrEe-A1usWO7GmQQ" association="_zmNYkOJrEe-A1usWO7GmQQ"/>
+      </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_SJEiwOIQEe-EAu7TQH7SBw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SJFJ0OIQEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuSgJskEeyRkvq7aCLpdg"/>
