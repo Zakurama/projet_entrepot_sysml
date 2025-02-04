@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-         xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Actors="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore" 
-         xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Block="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore" 
-         xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" 
-         xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements"
-         xsi:schemaLocation="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuTJpskEeyRkvq7aCLpdg 
-                             http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuStZskEeyRkvq7aCLpdg 
-                             http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Actors="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Block="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuTJpskEeyRkvq7aCLpdg http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuStZskEeyRkvq7aCLpdg">
   <uml:Model xmi:id="_bcsxoOINEe-EAu7TQH7SBw" name="robot_entrepot">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bpcNIOINEe-EAu7TQH7SBw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -14,7 +7,7 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bqQsgOINEe-EAu7TQH7SBw">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="__eN4EOINEe-EAu7TQH7SBw" name="contexte">
+    <packagedElement xmi:type="uml:Package" xmi:id="__eN4EOINEe-EAu7TQH7SBw" name="Contexte">
       <packagedElement xmi:type="uml:Class" xmi:id="_WU1DcOIOEe-EAu7TQH7SBw" name="Système de gestion logistique avec robots Ultimate"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_CdzjwOIQEe-EAu7TQH7SBw" name="Opérateur logistique"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_EetrkOIQEe-EAu7TQH7SBw" name="Technicien de maintenance"/>
@@ -71,31 +64,154 @@
         <appliedProfile xmi:type="uml:Profile" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_11_5EAPbeta_be00301_1147434586638_637562_1900"/>
       </profileApplication>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_auFcUOIGEe-EAu7TQH7SBw" name="Diagrammes">
-      <packagedElement xmi:type="uml:Package" xmi:id="_cB8Q4OIGEe-EAu7TQH7SBw" name="03 - Exigences">
-        <packagedElement xmi:type="uml:Class" xmi:id="_UC2d8OIHEe-EAu7TQH7SBw" name="Trier des objets">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_q63FkOIJEe-EAu7TQH7SBw" name="Flotte de robots">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_N8JeEOIKEe-EAu7TQH7SBw" name="Nombre de robots"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_zzX-YOIJEe-EAu7TQH7SBw" name="Croisements"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_ZrkIAOIJEe-EAu7TQH7SBw" name="Déplacement entrepôt"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_f4FxIOIIEe-EAu7TQH7SBw" name="Transport objets"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_sizwQOIIEe-EAu7TQH7SBw" name="Unité centrale">
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_KdpzYOIJEe-EAu7TQH7SBw" name="Gestion des sotcks"/>
-            <nestedClassifier xmi:type="uml:Class" xmi:id="_QJDP8OIJEe-EAu7TQH7SBw" name="Gestion des articles"/>
-          </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_DKMXYOIKEe-EAu7TQH7SBw" name="Autonomie"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_ThGUYOIKEe-EAu7TQH7SBw" name="Maintenance"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Pt7PoOIIEe-EAu7TQH7SBw" name="Type de robot"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_P8dBkOINEe-EAu7TQH7SBw" name="Refine7" client="_Pt7PoOIIEe-EAu7TQH7SBw" supplier="_q63FkOIJEe-EAu7TQH7SBw"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_svtxkOINEe-EAu7TQH7SBw" name="Nombre d'objets transportables"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_5oL40OINEe-EAu7TQH7SBw" name="Refine5" client="_svtxkOINEe-EAu7TQH7SBw" supplier="_f4FxIOIIEe-EAu7TQH7SBw"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_QK20gOIOEe-EAu7TQH7SBw" name="Optimisation des flux"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ekvrMOIOEe-EAu7TQH7SBw" name="Refine7" client="_QK20gOIOEe-EAu7TQH7SBw" supplier="_QJDP8OIJEe-EAu7TQH7SBw"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cB8Q4OIGEe-EAu7TQH7SBw" name="Exigences">
+      <packagedElement xmi:type="uml:Class" xmi:id="_UC2d8OIHEe-EAu7TQH7SBw" name="Trier des objets">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_q63FkOIJEe-EAu7TQH7SBw" name="Flotte de robots">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_N8JeEOIKEe-EAu7TQH7SBw" name="Nombre de robots"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_zzX-YOIJEe-EAu7TQH7SBw" name="Croisements"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ZrkIAOIJEe-EAu7TQH7SBw" name="Déplacement entrepôt"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_f4FxIOIIEe-EAu7TQH7SBw" name="Transport objets"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_sizwQOIIEe-EAu7TQH7SBw" name="Unité centrale">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_KdpzYOIJEe-EAu7TQH7SBw" name="Gestion des sotcks"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_QJDP8OIJEe-EAu7TQH7SBw" name="Gestion des articles"/>
+        </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_DKMXYOIKEe-EAu7TQH7SBw" name="Autonomie"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_ThGUYOIKEe-EAu7TQH7SBw" name="Maintenance"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Pt7PoOIIEe-EAu7TQH7SBw" name="Type de robot"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_P8dBkOINEe-EAu7TQH7SBw" name="Refine7" client="_Pt7PoOIIEe-EAu7TQH7SBw" supplier="_q63FkOIJEe-EAu7TQH7SBw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_svtxkOINEe-EAu7TQH7SBw" name="Nombre d'objets transportables"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_5oL40OINEe-EAu7TQH7SBw" name="Refine5" client="_svtxkOINEe-EAu7TQH7SBw" supplier="_f4FxIOIIEe-EAu7TQH7SBw"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_QK20gOIOEe-EAu7TQH7SBw" name="Optimisation des flux"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_ekvrMOIOEe-EAu7TQH7SBw" name="Refine7" client="_QK20gOIOEe-EAu7TQH7SBw" supplier="_QJDP8OIJEe-EAu7TQH7SBw"/>
     </packagedElement>
-
+    <packagedElement xmi:type="uml:Package" xmi:id="_xgHpoOLKEe-WBaF1b5xkaw" name="Cas d'utilisation">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_x9-gIOMTEe-LS6qPYN_9GQ" annotatedElement="_Hx8HQOMKEe-LS6qPYN_9GQ">
+        <body>L'environnement comprend le nombre de rayons, d'allées, de différents produits, de bacs ainsi que leur position etc.</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_di1w8OLMEe-WBaF1b5xkaw" name="Système de gestion logistique avec robots Ultimate" useCase="_gKhk4OLMEe-WBaF1b5xkaw _-5Ix0OLNEe-WBaF1b5xkaw _VK-xgOL1Ee-LS6qPYN_9GQ _uV13cOL1Ee-LS6qPYN_9GQ _Hx8HQOMKEe-LS6qPYN_9GQ _NtzBsOMKEe-LS6qPYN_9GQ _gx92MOMKEe-LS6qPYN_9GQ _kAzJsOMKEe-LS6qPYN_9GQ _oP4ZQOMKEe-LS6qPYN_9GQ _LiWBUOMLEe-LS6qPYN_9GQ _zZANUOMLEe-LS6qPYN_9GQ _7_-GUOMPEe-LS6qPYN_9GQ _Wd8Z8OMQEe-LS6qPYN_9GQ _ZwCc0OMQEe-LS6qPYN_9GQ _o5XzcOMQEe-LS6qPYN_9GQ _0DHIAOMQEe-LS6qPYN_9GQ _UTibEOMUEe-LS6qPYN_9GQ">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gKhk4OLMEe-WBaF1b5xkaw" name="Stopper un robot" subject="_di1w8OLMEe-WBaF1b5xkaw">
+          <include xmi:type="uml:Include" xmi:id="_xnDukOMLEe-LS6qPYN_9GQ" addition="_LiWBUOMLEe-LS6qPYN_9GQ"/>
+          <include xmi:type="uml:Include" xmi:id="_2xOtYOMLEe-LS6qPYN_9GQ" addition="_zZANUOMLEe-LS6qPYN_9GQ"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-5Ix0OLNEe-WBaF1b5xkaw" name="Installer le système" subject="_di1w8OLMEe-WBaF1b5xkaw">
+          <include xmi:type="uml:Include" xmi:id="_t25FEOMKEe-LS6qPYN_9GQ" addition="_gx92MOMKEe-LS6qPYN_9GQ"/>
+          <include xmi:type="uml:Include" xmi:id="_uolAsOMKEe-LS6qPYN_9GQ" addition="_kAzJsOMKEe-LS6qPYN_9GQ"/>
+          <include xmi:type="uml:Include" xmi:id="_vZAYEOMKEe-LS6qPYN_9GQ" addition="_oP4ZQOMKEe-LS6qPYN_9GQ"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VK-xgOL1Ee-LS6qPYN_9GQ" name="Gérer les stocks logiciel" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_uV13cOL1Ee-LS6qPYN_9GQ" name="Installer la MàJ" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Hx8HQOMKEe-LS6qPYN_9GQ" name="Modifier l'environnement" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_NtzBsOMKEe-LS6qPYN_9GQ" name="Ajouter un robot" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gx92MOMKEe-LS6qPYN_9GQ" name="Instrumenter les robots" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_kAzJsOMKEe-LS6qPYN_9GQ" name="Faire les connexions électriques" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_oP4ZQOMKEe-LS6qPYN_9GQ" name="Installer le software" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_LiWBUOMLEe-LS6qPYN_9GQ" name="Envoyer en maintenance" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zZANUOMLEe-LS6qPYN_9GQ" name="Mettre au rebut" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7_-GUOMPEe-LS6qPYN_9GQ" name="Changer des pièces sur les robots" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Wd8Z8OMQEe-LS6qPYN_9GQ" name="Récupérer l'état des robots" subject="_di1w8OLMEe-WBaF1b5xkaw">
+          <extend xmi:type="uml:Extend" xmi:id="_nh4cEOMQEe-LS6qPYN_9GQ" extendedCase="_ZwCc0OMQEe-LS6qPYN_9GQ" extensionLocation="_nh5qMOMQEe-LS6qPYN_9GQ"/>
+          <extend xmi:type="uml:Extend" xmi:id="_xZh2oOMQEe-LS6qPYN_9GQ" extendedCase="_o5XzcOMQEe-LS6qPYN_9GQ" extensionLocation="_xZidsOMQEe-LS6qPYN_9GQ"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ZwCc0OMQEe-LS6qPYN_9GQ" name="État batterie" subject="_di1w8OLMEe-WBaF1b5xkaw">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_nh5qMOMQEe-LS6qPYN_9GQ" name="ExtensionPoint1"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_o5XzcOMQEe-LS6qPYN_9GQ" name="Position" subject="_di1w8OLMEe-WBaF1b5xkaw">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_xZidsOMQEe-LS6qPYN_9GQ" name="ExtensionPoint1"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_0DHIAOMQEe-LS6qPYN_9GQ" name="Effectue des tests" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_UTibEOMUEe-LS6qPYN_9GQ" name="Modifier les paramètres du système" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_B0gzQOLNEe-WBaF1b5xkaw" name="Opérateur logistique"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_RDjJQOLNEe-WBaF1b5xkaw" memberEnd="_RDllgOLNEe-WBaF1b5xkaw _RDllgeLNEe-WBaF1b5xkaw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RDk-cOLNEe-WBaF1b5xkaw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RDk-ceLNEe-WBaF1b5xkaw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_RDllgOLNEe-WBaF1b5xkaw" name="stopper un robot" type="_gKhk4OLMEe-WBaF1b5xkaw" association="_RDjJQOLNEe-WBaF1b5xkaw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_RDllgeLNEe-WBaF1b5xkaw" name="opérateur logistique" type="_B0gzQOLNEe-WBaF1b5xkaw" association="_RDjJQOLNEe-WBaF1b5xkaw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_dzwsYOLNEe-WBaF1b5xkaw" name="Technicien de maintenance"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_8sEdUOLNEe-WBaF1b5xkaw" name="Installateur"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pZeV0OLOEe-WBaF1b5xkaw" memberEnd="_pZe84uLOEe-WBaF1b5xkaw _pZe84-LOEe-WBaF1b5xkaw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pZe84OLOEe-WBaF1b5xkaw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pZe84eLOEe-WBaF1b5xkaw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_pZe84uLOEe-WBaF1b5xkaw" name="installer le système" type="_-5Ix0OLNEe-WBaF1b5xkaw" association="_pZeV0OLOEe-WBaF1b5xkaw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_pZe84-LOEe-WBaF1b5xkaw" name="installateur" type="_8sEdUOLNEe-WBaF1b5xkaw" association="_pZeV0OLOEe-WBaF1b5xkaw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sASnEOLOEe-WBaF1b5xkaw" name="Rayonnage"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_h3HF4OL1Ee-LS6qPYN_9GQ" memberEnd="_h3IUAuL1Ee-LS6qPYN_9GQ _h3I7EOL1Ee-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_h3IUAOL1Ee-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_h3IUAeL1Ee-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_h3IUAuL1Ee-LS6qPYN_9GQ" name="rayonnage" type="_sASnEOLOEe-WBaF1b5xkaw" association="_h3HF4OL1Ee-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_h3I7EOL1Ee-LS6qPYN_9GQ" name="gérer les stocks logiciel" type="_VK-xgOL1Ee-LS6qPYN_9GQ" association="_h3HF4OL1Ee-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_yFxF0OL1Ee-LS6qPYN_9GQ" memberEnd="_yFyT8OL1Ee-LS6qPYN_9GQ _yFyT8eL1Ee-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yFxs4OL1Ee-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yFxs4eL1Ee-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yFyT8OL1Ee-LS6qPYN_9GQ" name="màj logiciel" type="_uV13cOL1Ee-LS6qPYN_9GQ" association="_yFxF0OL1Ee-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_yFyT8eL1Ee-LS6qPYN_9GQ" name="technicien de maintenance" type="_dzwsYOLNEe-WBaF1b5xkaw" association="_yFxF0OL1Ee-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_LvPfwOMJEe-LS6qPYN_9GQ" name="Développeur"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_u3hmMOMLEe-LS6qPYN_9GQ" memberEnd="_u3iNQuMLEe-LS6qPYN_9GQ _u3iNQ-MLEe-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u3iNQOMLEe-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u3iNQeMLEe-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_u3iNQuMLEe-LS6qPYN_9GQ" name="gérer les stocks logiciel" type="_VK-xgOL1Ee-LS6qPYN_9GQ" association="_u3hmMOMLEe-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_u3iNQ-MLEe-LS6qPYN_9GQ" name="opérateur logistique" type="_B0gzQOLNEe-WBaF1b5xkaw" association="_u3hmMOMLEe-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_vp-W0OMLEe-LS6qPYN_9GQ" memberEnd="_vp_k8eMLEe-LS6qPYN_9GQ _vp_k8uMLEe-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vp-94OMLEe-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vp_k8OMLEe-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_vp_k8eMLEe-LS6qPYN_9GQ" name="ajouter un robot" type="_NtzBsOMKEe-LS6qPYN_9GQ" association="_vp-W0OMLEe-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_vp_k8uMLEe-LS6qPYN_9GQ" name="opérateur logistique" type="_B0gzQOLNEe-WBaF1b5xkaw" association="_vp-W0OMLEe-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_pudd0OMPEe-LS6qPYN_9GQ" memberEnd="_pueE4uMPEe-LS6qPYN_9GQ _pueE4-MPEe-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pueE4OMPEe-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pueE4eMPEe-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_pueE4uMPEe-LS6qPYN_9GQ" name="modifier des rayons" type="_Hx8HQOMKEe-LS6qPYN_9GQ" association="_pudd0OMPEe-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_pueE4-MPEe-LS6qPYN_9GQ" name="opérateur logistique" type="_B0gzQOLNEe-WBaF1b5xkaw" association="_pudd0OMPEe-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="__uUnYOMPEe-LS6qPYN_9GQ" memberEnd="__uVOcuMPEe-LS6qPYN_9GQ __uVOc-MPEe-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__uVOcOMPEe-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__uVOceMPEe-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="__uVOcuMPEe-LS6qPYN_9GQ" name="changer des pièces sur les robots" type="_7_-GUOMPEe-LS6qPYN_9GQ" association="__uUnYOMPEe-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="__uVOc-MPEe-LS6qPYN_9GQ" name="technicien de maintenance" type="_dzwsYOLNEe-WBaF1b5xkaw" association="__uUnYOMPEe-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_YmCH0OMQEe-LS6qPYN_9GQ" memberEnd="_YmDV8uMQEe-LS6qPYN_9GQ _YmDV8-MQEe-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YmDV8OMQEe-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YmDV8eMQEe-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YmDV8uMQEe-LS6qPYN_9GQ" name="récupérer l'état des robots" type="_Wd8Z8OMQEe-LS6qPYN_9GQ" association="_YmCH0OMQEe-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_YmDV8-MQEe-LS6qPYN_9GQ" name="opérateur logistique" type="_B0gzQOLNEe-WBaF1b5xkaw" association="_YmCH0OMQEe-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_4-Z9UOMQEe-LS6qPYN_9GQ" memberEnd="_4-bLcuMQEe-LS6qPYN_9GQ _4-bygOMQEe-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4-bLcOMQEe-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4-bLceMQEe-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_4-bLcuMQEe-LS6qPYN_9GQ" name="effectue des tests" type="_0DHIAOMQEe-LS6qPYN_9GQ" association="_4-Z9UOMQEe-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_4-bygOMQEe-LS6qPYN_9GQ" name="développeur" type="_LvPfwOMJEe-LS6qPYN_9GQ" association="_4-Z9UOMQEe-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_emAwcOMUEe-LS6qPYN_9GQ" memberEnd="_emB-keMUEe-LS6qPYN_9GQ _emB-kuMUEe-LS6qPYN_9GQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_emBXgOMUEe-LS6qPYN_9GQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_emB-kOMUEe-LS6qPYN_9GQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_emB-keMUEe-LS6qPYN_9GQ" name="modifier les paramètres du système" type="_di1w8OLMEe-WBaF1b5xkaw" association="_emAwcOMUEe-LS6qPYN_9GQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_emB-kuMUEe-LS6qPYN_9GQ" name="installateur" type="_8sEdUOLNEe-WBaF1b5xkaw" association="_emAwcOMUEe-LS6qPYN_9GQ"/>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYn3cOLPEe-WBaF1b5xkaw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYrh0OLPEe-WBaF1b5xkaw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuSgJskEeyRkvq7aCLpdg"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_11_5EAPbeta_be00301_1147434586638_637562_1900"/>
+      </profileApplication>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bhr_UOINEe-EAu7TQH7SBw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bhw30OINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -103,7 +219,8 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpLHYOINEe-EAu7TQH7SBw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpLucOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpLucOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
     </profileApplication>
@@ -177,4 +294,6 @@
   <Requirements:Refine xmi:id="_5oOVEOINEe-EAu7TQH7SBw" base_DirectedRelationship="_5oL40OINEe-EAu7TQH7SBw" base_Abstraction="_5oL40OINEe-EAu7TQH7SBw"/>
   <Requirements:Requirement xmi:id="_QK5QwOIOEe-EAu7TQH7SBw" base_NamedElement="_QK20gOIOEe-EAu7TQH7SBw" id="1.2.2.1" text="L'assignation des robots doit être la plus équitable possible en minimisant les passages dans les allées.&#xD;&#xA;" base_Class="_QK20gOIOEe-EAu7TQH7SBw"/>
   <Requirements:Refine xmi:id="_ekxgYOIOEe-EAu7TQH7SBw" base_DirectedRelationship="_ekvrMOIOEe-EAu7TQH7SBw" base_Abstraction="_ekvrMOIOEe-EAu7TQH7SBw"/>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_XPvT0OLPEe-WBaF1b5xkaw" base_Class="_sASnEOLOEe-WBaF1b5xkaw"/>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Block:System xmi:id="_aoFvsOLPEe-WBaF1b5xkaw" base_Class="_di1w8OLMEe-WBaF1b5xkaw"/>
 </xmi:XMI>
