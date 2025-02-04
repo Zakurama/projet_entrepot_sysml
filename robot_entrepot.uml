@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Actors="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Block="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuTJpskEeyRkvq7aCLpdg http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuStZskEeyRkvq7aCLpdg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Actors="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore" 
+         xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Block="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore" 
+         xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" 
+         xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements"
+         xsi:schemaLocation="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuTJpskEeyRkvq7aCLpdg 
+                             http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuStZskEeyRkvq7aCLpdg 
+                             http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_bcsxoOINEe-EAu7TQH7SBw" name="robot_entrepot">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bpcNIOINEe-EAu7TQH7SBw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -64,6 +71,31 @@
         <appliedProfile xmi:type="uml:Profile" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_11_5EAPbeta_be00301_1147434586638_637562_1900"/>
       </profileApplication>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_auFcUOIGEe-EAu7TQH7SBw" name="Diagrammes">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cB8Q4OIGEe-EAu7TQH7SBw" name="03 - Exigences">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UC2d8OIHEe-EAu7TQH7SBw" name="Trier des objets">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_q63FkOIJEe-EAu7TQH7SBw" name="Flotte de robots">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_N8JeEOIKEe-EAu7TQH7SBw" name="Nombre de robots"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_zzX-YOIJEe-EAu7TQH7SBw" name="Croisements"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_ZrkIAOIJEe-EAu7TQH7SBw" name="Déplacement entrepôt"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_f4FxIOIIEe-EAu7TQH7SBw" name="Transport objets"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_sizwQOIIEe-EAu7TQH7SBw" name="Unité centrale">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_KdpzYOIJEe-EAu7TQH7SBw" name="Gestion des sotcks"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_QJDP8OIJEe-EAu7TQH7SBw" name="Gestion des articles"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_DKMXYOIKEe-EAu7TQH7SBw" name="Autonomie"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_ThGUYOIKEe-EAu7TQH7SBw" name="Maintenance"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Pt7PoOIIEe-EAu7TQH7SBw" name="Type de robot"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_P8dBkOINEe-EAu7TQH7SBw" name="Refine7" client="_Pt7PoOIIEe-EAu7TQH7SBw" supplier="_q63FkOIJEe-EAu7TQH7SBw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_svtxkOINEe-EAu7TQH7SBw" name="Nombre d'objets transportables"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_5oL40OINEe-EAu7TQH7SBw" name="Refine5" client="_svtxkOINEe-EAu7TQH7SBw" supplier="_f4FxIOIIEe-EAu7TQH7SBw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QK20gOIOEe-EAu7TQH7SBw" name="Optimisation des flux"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ekvrMOIOEe-EAu7TQH7SBw" name="Refine7" client="_QK20gOIOEe-EAu7TQH7SBw" supplier="_QJDP8OIJEe-EAu7TQH7SBw"/>
+      </packagedElement>
+    </packagedElement>
+
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bhr_UOINEe-EAu7TQH7SBw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bhw30OINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -71,8 +103,7 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bpLHYOINEe-EAu7TQH7SBw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpLucOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bpLucOINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
     </profileApplication>
@@ -129,4 +160,21 @@
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Sensor xmi:id="_xYnH8OIQEe-EAu7TQH7SBw" base_Class="_lcMZQOIQEe-EAu7TQH7SBw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_iBafAOIREe-EAu7TQH7SBw" base_Class="_mq9ScOIQEe-EAu7TQH7SBw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_kmE0IOIREe-EAu7TQH7SBw" base_Class="_dJI98OIQEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_UC9LoOIHEe-EAu7TQH7SBw" base_NamedElement="_UC2d8OIHEe-EAu7TQH7SBw" id="1" text="Le système doit être capable de trier des produits dans un entrepôt." base_Class="_UC2d8OIHEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_Pt9r4OIIEe-EAu7TQH7SBw" base_NamedElement="_Pt7PoOIIEe-EAu7TQH7SBw" id="1.1.1" text="Le système doit utiliser des robots de type &quot;Ultimate&quot;." base_Class="_Pt7PoOIIEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_f4INYOIIEe-EAu7TQH7SBw" base_NamedElement="_f4FxIOIIEe-EAu7TQH7SBw" id="1.1.2" text="Chaque robot doit pouvoir transporter plusieurs objets." base_Class="_f4FxIOIIEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_si1lcOIIEe-EAu7TQH7SBw" base_NamedElement="_sizwQOIIEe-EAu7TQH7SBw" id="1.2" text="L'ensemble du système doit être piloté par une unité centrale." base_Class="_sizwQOIIEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_KdsPoOIJEe-EAu7TQH7SBw" base_NamedElement="_KdpzYOIJEe-EAu7TQH7SBw" id="1.2.1" text="L'unité centrale doit gérer l'ensemble des stocks." base_Class="_KdpzYOIJEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_QJFFIOIJEe-EAu7TQH7SBw" base_NamedElement="_QJDP8OIJEe-EAu7TQH7SBw" id="1.2.2" text="L'unité centrale doit assigner à chaque robot la gestion de chaque article." base_Class="_QJDP8OIJEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_Zrl9MOIJEe-EAu7TQH7SBw" base_NamedElement="_ZrkIAOIJEe-EAu7TQH7SBw" id="1.1.3" text="Les robots doivent pouvoir se déplacer dans l'entrepôt." base_Class="_ZrkIAOIJEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_q65h0OIJEe-EAu7TQH7SBw" base_NamedElement="_q63FkOIJEe-EAu7TQH7SBw" id="1.1" text="Le système doit fonctionner avec une flotte de robots mobiles." base_Class="_q63FkOIJEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_zzZzkOIJEe-EAu7TQH7SBw" base_NamedElement="_zzX-YOIJEe-EAu7TQH7SBw" id="1.1.4" text="Les robots ne doivent pas se croiser dans les allées de l'entrepôt" base_Class="_zzX-YOIJEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_DKOMkOIKEe-EAu7TQH7SBw" base_NamedElement="_DKMXYOIKEe-EAu7TQH7SBw" id="1.3" text="Le système doit être capable de fonctionner seul, sans intervention extérieure." base_Class="_DKMXYOIKEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_N8LTQOIKEe-EAu7TQH7SBw" base_NamedElement="_N8JeEOIKEe-EAu7TQH7SBw" id="1.1.5" text="Le nombre de robot doit pouvoir être ajustable." base_Class="_N8JeEOIKEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_ThIJkOIKEe-EAu7TQH7SBw" base_NamedElement="_ThGUYOIKEe-EAu7TQH7SBw" id="2" text="Le système doit permettre l'intervention d'un technicien de maintenance." base_Class="_ThGUYOIKEe-EAu7TQH7SBw"/>
+  <Requirements:Refine xmi:id="_P8gE4OINEe-EAu7TQH7SBw" base_DirectedRelationship="_P8dBkOINEe-EAu7TQH7SBw" base_Abstraction="_P8dBkOINEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_svwN0OINEe-EAu7TQH7SBw" base_NamedElement="_svtxkOINEe-EAu7TQH7SBw" id="1.1.2.1" text="Les robots doivent pouvoir transporter 0,1 ou 2 objets." base_Class="_svtxkOINEe-EAu7TQH7SBw"/>
+  <Requirements:Refine xmi:id="_5oOVEOINEe-EAu7TQH7SBw" base_DirectedRelationship="_5oL40OINEe-EAu7TQH7SBw" base_Abstraction="_5oL40OINEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_QK5QwOIOEe-EAu7TQH7SBw" base_NamedElement="_QK20gOIOEe-EAu7TQH7SBw" id="1.2.2.1" text="L'assignation des robots doit être la plus équitable possible en minimisant les passages dans les allées.&#xD;&#xA;" base_Class="_QK20gOIOEe-EAu7TQH7SBw"/>
+  <Requirements:Refine xmi:id="_ekxgYOIOEe-EAu7TQH7SBw" base_DirectedRelationship="_ekvrMOIOEe-EAu7TQH7SBw" base_Abstraction="_ekvrMOIOEe-EAu7TQH7SBw"/>
 </xmi:XMI>
