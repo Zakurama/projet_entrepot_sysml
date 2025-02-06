@@ -8,7 +8,7 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="__eN4EOINEe-EAu7TQH7SBw" name="Contexte">
-      <packagedElement xmi:type="uml:Class" xmi:id="_WU1DcOIOEe-EAu7TQH7SBw" name="Système de gestion logistique avec robots Ultimate"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WU1DcOIOEe-EAu7TQH7SBw" name="Système de gestion logistique"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_CdzjwOIQEe-EAu7TQH7SBw" name="Opérateur logistique"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_EetrkOIQEe-EAu7TQH7SBw" name="Technicien de maintenance"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_HQIDQOIQEe-EAu7TQH7SBw" memberEnd="_HQLtoOIQEe-EAu7TQH7SBw _HQMUsOIQEe-EAu7TQH7SBw">
@@ -57,6 +57,30 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_zmV7cOJrEe-A1usWO7GmQQ" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_zmNYkOJrEe-A1usWO7GmQQ"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_zmXJkOJrEe-A1usWO7GmQQ" name="installateur" type="_uumwcOJrEe-A1usWO7GmQQ" association="_zmNYkOJrEe-A1usWO7GmQQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_vFWngORjEe-uIujTQgGQfg" name="Développeur"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_0KptYORjEe-uIujTQgGQfg" memberEnd="_0KtXwORjEe-uIujTQgGQfg _0Kt-0ORjEe-uIujTQgGQfg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0KsJoORjEe-uIujTQgGQfg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0KsJoeRjEe-uIujTQgGQfg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_0KtXwORjEe-uIujTQgGQfg" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_0KptYORjEe-uIujTQgGQfg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_0Kt-0ORjEe-uIujTQgGQfg" name="développeur" type="_vFWngORjEe-uIujTQgGQfg" association="_0KptYORjEe-uIujTQgGQfg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_5Y23oORjEe-uIujTQgGQfg" name="Robots Ultimate"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_BVL1AORkEe-uIujTQgGQfg" memberEnd="_BVPfYeRkEe-uIujTQgGQfg _BVR7oORkEe-uIujTQgGQfg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BVO4UORkEe-uIujTQgGQfg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BVPfYORkEe-uIujTQgGQfg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_BVPfYeRkEe-uIujTQgGQfg" name="système de gestion logistique" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_BVL1AORkEe-uIujTQgGQfg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_BVR7oORkEe-uIujTQgGQfg" name="robots ultimate" type="_5Y23oORjEe-uIujTQgGQfg" association="_BVL1AORkEe-uIujTQgGQfg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_GxY_AORkEe-uIujTQgGQfg" name="Environnement"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NB-zUORkEe-uIujTQgGQfg" memberEnd="_NCAogeRkEe-uIujTQgGQfg _NCDEwORkEe-uIujTQgGQfg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NCABcORkEe-uIujTQgGQfg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NCAogORkEe-uIujTQgGQfg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NCAogeRkEe-uIujTQgGQfg" name="environnement" type="_GxY_AORkEe-uIujTQgGQfg" association="_NB-zUORkEe-uIujTQgGQfg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NCDEwORkEe-uIujTQgGQfg" name="système de gestion logistique" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_NB-zUORkEe-uIujTQgGQfg"/>
+      </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_SJEiwOIQEe-EAu7TQH7SBw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SJFJ0OIQEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuSgJskEeyRkvq7aCLpdg"/>
@@ -100,7 +124,7 @@
       <ownedComment xmi:type="uml:Comment" xmi:id="_x9-gIOMTEe-LS6qPYN_9GQ" annotatedElement="_Hx8HQOMKEe-LS6qPYN_9GQ">
         <body>L'environnement comprend le nombre de rayons, d'allées, de différents produits, de bacs ainsi que leur position etc.</body>
       </ownedComment>
-      <packagedElement xmi:type="uml:Class" xmi:id="_di1w8OLMEe-WBaF1b5xkaw" name="Système de gestion logistique avec robots Ultimate" useCase="_gKhk4OLMEe-WBaF1b5xkaw _-5Ix0OLNEe-WBaF1b5xkaw _VK-xgOL1Ee-LS6qPYN_9GQ _uV13cOL1Ee-LS6qPYN_9GQ _Hx8HQOMKEe-LS6qPYN_9GQ _NtzBsOMKEe-LS6qPYN_9GQ _gx92MOMKEe-LS6qPYN_9GQ _kAzJsOMKEe-LS6qPYN_9GQ _oP4ZQOMKEe-LS6qPYN_9GQ _LiWBUOMLEe-LS6qPYN_9GQ _zZANUOMLEe-LS6qPYN_9GQ _7_-GUOMPEe-LS6qPYN_9GQ _Wd8Z8OMQEe-LS6qPYN_9GQ _ZwCc0OMQEe-LS6qPYN_9GQ _o5XzcOMQEe-LS6qPYN_9GQ _0DHIAOMQEe-LS6qPYN_9GQ _UTibEOMUEe-LS6qPYN_9GQ">
+      <packagedElement xmi:type="uml:Class" xmi:id="_di1w8OLMEe-WBaF1b5xkaw" name="Système de gestion logistique" useCase="_gKhk4OLMEe-WBaF1b5xkaw _-5Ix0OLNEe-WBaF1b5xkaw _VK-xgOL1Ee-LS6qPYN_9GQ _uV13cOL1Ee-LS6qPYN_9GQ _Hx8HQOMKEe-LS6qPYN_9GQ _NtzBsOMKEe-LS6qPYN_9GQ _gx92MOMKEe-LS6qPYN_9GQ _kAzJsOMKEe-LS6qPYN_9GQ _oP4ZQOMKEe-LS6qPYN_9GQ _LiWBUOMLEe-LS6qPYN_9GQ _zZANUOMLEe-LS6qPYN_9GQ _7_-GUOMPEe-LS6qPYN_9GQ _Wd8Z8OMQEe-LS6qPYN_9GQ _ZwCc0OMQEe-LS6qPYN_9GQ _o5XzcOMQEe-LS6qPYN_9GQ _0DHIAOMQEe-LS6qPYN_9GQ _UTibEOMUEe-LS6qPYN_9GQ">
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gKhk4OLMEe-WBaF1b5xkaw" name="Stopper un robot" subject="_di1w8OLMEe-WBaF1b5xkaw">
           <include xmi:type="uml:Include" xmi:id="_xnDukOMLEe-LS6qPYN_9GQ" addition="_LiWBUOMLEe-LS6qPYN_9GQ"/>
           <include xmi:type="uml:Include" xmi:id="_2xOtYOMLEe-LS6qPYN_9GQ" addition="_zZANUOMLEe-LS6qPYN_9GQ"/>
@@ -312,4 +336,6 @@
   <Requirements:Requirement xmi:id="_bsrx4OMfEe-MXuvbNV2Jqw" base_NamedElement="_bsoukOMfEe-MXuvbNV2Jqw" id="1.2" text="Le système doit pouvoir sortir des produits des stocks et les amener dans les bacs de collecte" base_Class="_bsoukOMfEe-MXuvbNV2Jqw"/>
   <Requirements:DeriveReqt xmi:id="_cqQ60OMnEe-MXuvbNV2Jqw" base_DirectedRelationship="_cqPFoOMnEe-MXuvbNV2Jqw" base_Abstraction="_cqPFoOMnEe-MXuvbNV2Jqw"/>
   <Requirements:Refine xmi:id="_coNP4OMoEe-MXuvbNV2Jqw" base_DirectedRelationship="_coLasOMoEe-MXuvbNV2Jqw" base_Abstraction="_coLasOMoEe-MXuvbNV2Jqw"/>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_ECLmwORkEe-uIujTQgGQfg" base_Class="_5Y23oORjEe-uIujTQgGQfg"/>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Environmentaleffect xmi:id="_LxCv4ORkEe-uIujTQgGQfg" base_Class="_GxY_AORkEe-uIujTQgGQfg"/>
 </xmi:XMI>
