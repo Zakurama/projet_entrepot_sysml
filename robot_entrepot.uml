@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Actors="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Block="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuTJpskEeyRkvq7aCLpdg http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuStZskEeyRkvq7aCLpdg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Actors="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore" xmlns:__SysML_Centrale_Lille.NonNormativeExtensions.Block="http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http:///__SysML_Centrale_Lille/NonNormativeExtensions/Actors.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuTJpskEeyRkvq7aCLpdg http:///__SysML_Centrale_Lille/NonNormativeExtensions/Block.ecore ../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuStZskEeyRkvq7aCLpdg">
   <uml:Model xmi:id="_bcsxoOINEe-EAu7TQH7SBw" name="robot_entrepot">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_bpcNIOINEe-EAu7TQH7SBw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -629,9 +629,178 @@ etc.</body>
       </profileApplication>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_hsc4EOkWEe-Rdp3Ezmv2BQ" name="Sequence_diagrams">
-      <packagedElement xmi:type="uml:Interaction" xmi:id="_kXKx4OkWEe-Rdp3Ezmv2BQ" name="Interaction1"/>
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_kXKx4OkWEe-Rdp3Ezmv2BQ" name="Interaction Demande nouvelle position Robot">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_aGVAIOlWEe-VQ9irnkSD2A" name="" type="_ZopCwOlPEe-VQ9irnkSD2A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_aySuQOlWEe-VQ9irnkSD2A" name="" type="_FBzsMOlQEe-VQ9irnkSD2A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ccg0YOlWEe-VQ9irnkSD2A" name="" type="_PFSt4OlREe-VQ9irnkSD2A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fDwjcOlWEe-VQ9irnkSD2A" name="" type="_JLgsgOlQEe-VQ9irnkSD2A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hmkecOlWEe-VQ9irnkSD2A" name="" type="_PG5JAOlUEe-VQ9irnkSD2A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lhfb4OlWEe-VQ9irnkSD2A" name="" type="_-sr9MOlPEe-VQ9irnkSD2A"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_P-5dIOlWEe-VQ9irnkSD2A" name="Lifeline1" represents="_ccg0YOlWEe-VQ9irnkSD2A" coveredBy="_QSRPoOlXEe-VQ9irnkSD2A _7ygU8elYEe-VQ9irnkSD2A"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_QY4DYOlWEe-VQ9irnkSD2A" name="Lifeline2" represents="_aGVAIOlWEe-VQ9irnkSD2A" coveredBy="_QSR2sOlXEe-VQ9irnkSD2A _Wb4SMOlXEe-VQ9irnkSD2A _NcSEgelYEe-VQ9irnkSD2A _SJ0xsOlYEe-VQ9irnkSD2A _vaAHMulYEe-VQ9irnkSD2A _7ygU8OlYEe-VQ9irnkSD2A"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_Q6qh0OlWEe-VQ9irnkSD2A" name="Lifeline3" represents="_aySuQOlWEe-VQ9irnkSD2A" coveredBy="_NcSEgOlYEe-VQ9irnkSD2A"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_RShBIOlWEe-VQ9irnkSD2A" name="Lifeline4" represents="_fDwjcOlWEe-VQ9irnkSD2A" coveredBy="_o6VVEOlYEe-VQ9irnkSD2A _jLMoAelYEe-VQ9irnkSD2A"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_RpvOUOlWEe-VQ9irnkSD2A" name="Lifeline5" represents="_hmkecOlWEe-VQ9irnkSD2A" coveredBy="_o6V8IOlYEe-VQ9irnkSD2A"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_kxh-kOlWEe-VQ9irnkSD2A" name="Lifeline11" represents="_lhfb4OlWEe-VQ9irnkSD2A" coveredBy="_Wb4SMelXEe-VQ9irnkSD2A _6k-AQOlXEe-VQ9irnkSD2A _6k-nUOlXEe-VQ9irnkSD2A _SJ1YwOlYEe-VQ9irnkSD2A _Wd-HcOlYEe-VQ9irnkSD2A _Wd-ugOlYEe-VQ9irnkSD2A _jLMoAOlYEe-VQ9irnkSD2A _vaAHMelYEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QSRPoOlXEe-VQ9irnkSD2A" name="Message13SendEvent" covered="_P-5dIOlWEe-VQ9irnkSD2A" message="_QSQBgOlXEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QSR2sOlXEe-VQ9irnkSD2A" name="Message13ReceiveEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_QSQBgOlXEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wb4SMOlXEe-VQ9irnkSD2A" name="Message16SendEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_Wb3rIOlXEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wb4SMelXEe-VQ9irnkSD2A" name="Message16ReceiveEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_Wb3rIOlXEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_6k-AQOlXEe-VQ9irnkSD2A" name="CombinedFragment19" covered="_kxh-kOlWEe-VQ9irnkSD2A" interactionOperator="loop">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_6k-nUOlXEe-VQ9irnkSD2A" name="InteractionOperand0" covered="_kxh-kOlWEe-VQ9irnkSD2A">
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NcSEgOlYEe-VQ9irnkSD2A" name="Message20SendEvent" covered="_Q6qh0OlWEe-VQ9irnkSD2A" message="_NcRdcOlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NcSEgelYEe-VQ9irnkSD2A" name="Message20ReceiveEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_NcRdcOlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SJ0xsOlYEe-VQ9irnkSD2A" name="Message21SendEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_SJzjkOlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SJ1YwOlYEe-VQ9irnkSD2A" name="Message21ReceiveEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_SJzjkOlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wd-HcOlYEe-VQ9irnkSD2A" name="Message22SendEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_Wd9gYOlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wd-ugOlYEe-VQ9irnkSD2A" name="Message22ReceiveEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_Wd9gYOlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jLMoAOlYEe-VQ9irnkSD2A" name="Message23SendEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_jLMA8OlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_o6VVEOlYEe-VQ9irnkSD2A" name="Message24SendEvent" covered="_RShBIOlWEe-VQ9irnkSD2A" message="_o6UuAOlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jLMoAelYEe-VQ9irnkSD2A" name="Message23ReceiveEvent" covered="_RShBIOlWEe-VQ9irnkSD2A" message="_jLMA8OlYEe-VQ9irnkSD2A"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_o6V8IOlYEe-VQ9irnkSD2A" name="Message24ReceiveEvent" covered="_RpvOUOlWEe-VQ9irnkSD2A" message="_o6UuAOlYEe-VQ9irnkSD2A"/>
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_6k-nUelXEe-VQ9irnkSD2A" name="guard"/>
+          </operand>
+        </fragment>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vaAHMelYEe-VQ9irnkSD2A" name="Message25SendEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_vaAHMOlYEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vaAHMulYEe-VQ9irnkSD2A" name="Message25ReceiveEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_vaAHMOlYEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7ygU8OlYEe-VQ9irnkSD2A" name="Message28SendEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_7yfG0OlYEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7ygU8elYEe-VQ9irnkSD2A" name="Message28ReceiveEvent" covered="_P-5dIOlWEe-VQ9irnkSD2A" message="_7yfG0OlYEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_QSQBgOlXEe-VQ9irnkSD2A" name="Reçoit une demande de position" messageSort="asynchCall" receiveEvent="_QSR2sOlXEe-VQ9irnkSD2A" sendEvent="_QSRPoOlXEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_Wb3rIOlXEe-VQ9irnkSD2A" name="Transmet cette position" messageSort="asynchCall" receiveEvent="_Wb4SMelXEe-VQ9irnkSD2A" sendEvent="_Wb4SMOlXEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_NcRdcOlYEe-VQ9irnkSD2A" name="Envoie la position mesurée" messageSort="asynchCall" receiveEvent="_NcSEgelYEe-VQ9irnkSD2A" sendEvent="_NcSEgOlYEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_SJzjkOlYEe-VQ9irnkSD2A" name="Transmet cette position" messageSort="asynchCall" receiveEvent="_SJ1YwOlYEe-VQ9irnkSD2A" sendEvent="_SJ0xsOlYEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_Wd9gYOlYEe-VQ9irnkSD2A" name="Calcule la nouvelle tension moteur" messageSort="asynchCall" receiveEvent="_Wd-ugOlYEe-VQ9irnkSD2A" sendEvent="_Wd-HcOlYEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_jLMA8OlYEe-VQ9irnkSD2A" name="Transmet cette tension" messageSort="asynchCall" receiveEvent="_jLMoAelYEe-VQ9irnkSD2A" sendEvent="_jLMoAOlYEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_o6UuAOlYEe-VQ9irnkSD2A" name="Entraine" messageSort="asynchCall" receiveEvent="_o6V8IOlYEe-VQ9irnkSD2A" sendEvent="_o6VVEOlYEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_vaAHMOlYEe-VQ9irnkSD2A" name="Indique l'arrivée à la position désirée" messageSort="asynchCall" receiveEvent="_vaAHMulYEe-VQ9irnkSD2A" sendEvent="_vaAHMelYEe-VQ9irnkSD2A"/>
+        <message xmi:type="uml:Message" xmi:id="_7yfG0OlYEe-VQ9irnkSD2A" name="Transmet cette information" messageSort="asynchCall" receiveEvent="_7ygU8elYEe-VQ9irnkSD2A" sendEvent="_7ygU8OlYEe-VQ9irnkSD2A"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Interaction" xmi:id="_l9gdkOkWEe-Rdp3Ezmv2BQ" name="Interaction2"/>
       <packagedElement xmi:type="uml:Interaction" xmi:id="_oLFIYOkWEe-Rdp3Ezmv2BQ" name="Interaction3"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_wrRQ4OlPEe-VQ9irnkSD2A" name="Blocs_diagrams">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ZopCwOlPEe-VQ9irnkSD2A" name="Raspberry PI">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_7DUF8ulTEe-VQ9irnkSD2A" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_7DTe4OlTEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_-sr9MOlPEe-VQ9irnkSD2A" name="Arduino">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_i22-celSEe-VQ9irnkSD2A" name="moteurs" type="_JLgsgOlQEe-VQ9irnkSD2A" aggregation="composite" association="_i22XYOlSEe-VQ9irnkSD2A">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pEryoOlSEe-VQ9irnkSD2A" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pEwEEOlSEe-VQ9irnkSD2A" value="2"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_7DTe4-lTEe-VQ9irnkSD2A" name="raspberry pi" type="_ZopCwOlPEe-VQ9irnkSD2A" association="_7DTe4OlTEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_FBzsMOlQEe-VQ9irnkSD2A" name="Marvel Mind"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_JLgsgOlQEe-VQ9irnkSD2A" name="Moteur">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hHuRMulUEe-VQ9irnkSD2A" name="capteur rotation" type="_VFnuEOlQEe-VQ9irnkSD2A" association="_hHtqIOlUEe-VQ9irnkSD2A"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_JoBQEulVEe-VQ9irnkSD2A" name="chenille" type="_PG5JAOlUEe-VQ9irnkSD2A" association="_JoApAOlVEe-VQ9irnkSD2A">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JoB3IOlVEe-VQ9irnkSD2A" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JoB3IelVEe-VQ9irnkSD2A" value="2"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PNKs8OlQEe-VQ9irnkSD2A" name="Télémètre"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VFnuEOlQEe-VQ9irnkSD2A" name="Capteur rotation">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_hHu4QulUEe-VQ9irnkSD2A" name="moteurs" type="_JLgsgOlQEe-VQ9irnkSD2A" association="_hHtqIOlUEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_kX6MYOlQEe-VQ9irnkSD2A" name="Accéléromètre"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PFSt4OlREe-VQ9irnkSD2A" name="Module Wifi"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CykYAOlREe-VQ9irnkSD2A" name="Robot"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_XgzsMOlSEe-VQ9irnkSD2A" memberEnd="_Xg2IcelSEe-VQ9irnkSD2A _Xg2vgOlSEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Xg1hYOlSEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Xg2IcOlSEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Xg2IcelSEe-VQ9irnkSD2A" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" aggregation="composite" association="_XgzsMOlSEe-VQ9irnkSD2A"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Xg2vgOlSEe-VQ9irnkSD2A" name="robot" type="_CykYAOlREe-VQ9irnkSD2A" association="_XgzsMOlSEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ZTQhQOlSEe-VQ9irnkSD2A" memberEnd="_ZTRIUulSEe-VQ9irnkSD2A _ZTRIU-lSEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZTRIUOlSEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZTRIUelSEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ZTRIUulSEe-VQ9irnkSD2A" name="raspberry pi" type="_ZopCwOlPEe-VQ9irnkSD2A" aggregation="composite" association="_ZTQhQOlSEe-VQ9irnkSD2A"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ZTRIU-lSEe-VQ9irnkSD2A" name="robot" type="_CykYAOlREe-VQ9irnkSD2A" association="_ZTQhQOlSEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_bg6roOlSEe-VQ9irnkSD2A" memberEnd="_bg75welSEe-VQ9irnkSD2A _bg75wulSEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bg7SsOlSEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bg75wOlSEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_bg75welSEe-VQ9irnkSD2A" name="marvel mind" type="_FBzsMOlQEe-VQ9irnkSD2A" aggregation="composite" association="_bg6roOlSEe-VQ9irnkSD2A"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_bg75wulSEe-VQ9irnkSD2A" name="raspberry pi" type="_ZopCwOlPEe-VQ9irnkSD2A" association="_bg6roOlSEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_cJGF8OlSEe-VQ9irnkSD2A" memberEnd="_cJGtAulSEe-VQ9irnkSD2A _cJGtA-lSEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cJGtAOlSEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cJGtAelSEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_cJGtAulSEe-VQ9irnkSD2A" name="module wifi" type="_PFSt4OlREe-VQ9irnkSD2A" aggregation="composite" association="_cJGF8OlSEe-VQ9irnkSD2A"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_cJGtA-lSEe-VQ9irnkSD2A" name="raspberry pi" type="_ZopCwOlPEe-VQ9irnkSD2A" association="_cJGF8OlSEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_hMJJEOlSEe-VQ9irnkSD2A" memberEnd="_hMJwIOlSEe-VQ9irnkSD2A _hMJwIelSEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hMJJEelSEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hMJJEulSEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hMJwIOlSEe-VQ9irnkSD2A" name="télémètre" type="_PNKs8OlQEe-VQ9irnkSD2A" aggregation="composite" association="_hMJJEOlSEe-VQ9irnkSD2A"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hMJwIelSEe-VQ9irnkSD2A" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_hMJJEOlSEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_i22XYOlSEe-VQ9irnkSD2A" memberEnd="_i22-celSEe-VQ9irnkSD2A _i22-culSEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i22XYelSEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i22-cOlSEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_i22-culSEe-VQ9irnkSD2A" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_i22XYOlSEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_p8FUsOlSEe-VQ9irnkSD2A" memberEnd="_p8F7wulSEe-VQ9irnkSD2A _p8F7w-lSEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p8F7wOlSEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p8F7welSEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_p8F7wulSEe-VQ9irnkSD2A" name="capteur rotation" type="_VFnuEOlQEe-VQ9irnkSD2A" aggregation="composite" association="_p8FUsOlSEe-VQ9irnkSD2A">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rPIQ8OlSEe-VQ9irnkSD2A" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rPZWsOlSEe-VQ9irnkSD2A" value="2"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_p8F7w-lSEe-VQ9irnkSD2A" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_p8FUsOlSEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UEVI0OlTEe-VQ9irnkSD2A" memberEnd="_UEVv4ulTEe-VQ9irnkSD2A _UEVv4-lTEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UEVv4OlTEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UEVv4elTEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_UEVv4ulTEe-VQ9irnkSD2A" name="accéléromètre" type="_kX6MYOlQEe-VQ9irnkSD2A" aggregation="composite" association="_UEVI0OlTEe-VQ9irnkSD2A"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_UEVv4-lTEe-VQ9irnkSD2A" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_UEVI0OlTEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_7DTe4OlTEe-VQ9irnkSD2A" name="Récupère des données" memberEnd="_7DTe4-lTEe-VQ9irnkSD2A _7DUF8ulTEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7DTe4elTEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7DTe4ulTEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_PG5JAOlUEe-VQ9irnkSD2A" name="Chenille">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_JoB3IulVEe-VQ9irnkSD2A" name="moteurs" type="_JLgsgOlQEe-VQ9irnkSD2A" association="_JoApAOlVEe-VQ9irnkSD2A">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O3F9AOlVEe-VQ9irnkSD2A" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O3HyMOlVEe-VQ9irnkSD2A" value="2"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VslqoOlUEe-VQ9irnkSD2A" name="Carcasse"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_hHtqIOlUEe-VQ9irnkSD2A" memberEnd="_hHuRMulUEe-VQ9irnkSD2A _hHu4QulUEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hHuRMOlUEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hHuRMelUEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_xL1OAOlUEe-VQ9irnkSD2A" memberEnd="_xL11EulUEe-VQ9irnkSD2A _xL2cIOlUEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xL11EOlUEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xL11EelUEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xL11EulUEe-VQ9irnkSD2A" name="carcasse" type="_VslqoOlUEe-VQ9irnkSD2A" aggregation="composite" association="_xL1OAOlUEe-VQ9irnkSD2A"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_xL2cIOlUEe-VQ9irnkSD2A" name="robot" type="_CykYAOlREe-VQ9irnkSD2A" association="_xL1OAOlUEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_zTYwYOlUEe-VQ9irnkSD2A" memberEnd="_zTYwY-lUEe-VQ9irnkSD2A _zTZXcOlUEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zTYwYelUEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zTYwYulUEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_zTYwY-lUEe-VQ9irnkSD2A" name="chenille" type="_PG5JAOlUEe-VQ9irnkSD2A" aggregation="composite" association="_zTYwYOlUEe-VQ9irnkSD2A">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_12F9sOlUEe-VQ9irnkSD2A" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_12WcYOlUEe-VQ9irnkSD2A" value="2"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_zTZXcOlUEe-VQ9irnkSD2A" name="robot" type="_CykYAOlREe-VQ9irnkSD2A" association="_zTYwYOlUEe-VQ9irnkSD2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_JoApAOlVEe-VQ9irnkSD2A" name="Actionnent" memberEnd="_JoBQEulVEe-VQ9irnkSD2A _JoB3IulVEe-VQ9irnkSD2A">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JoBQEOlVEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JoBQEelVEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bhr_UOINEe-EAu7TQH7SBw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bhw30OINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -731,4 +900,15 @@ etc.</body>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_uJrAYOR5Ee-nvMgiAx-0hw" base_Class="_uJk53eR5Ee-nvMgiAx-0hw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Block:System xmi:id="_uJrncOR5Ee-nvMgiAx-0hw" base_Class="_uJk6GOR5Ee-nvMgiAx-0hw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_uJrnceR5Ee-nvMgiAx-0hw" base_Class="_uJk6M-R5Ee-nvMgiAx-0hw"/>
+  <Blocks:Block xmi:id="_Zo5hcOlPEe-VQ9irnkSD2A" base_Class="_ZopCwOlPEe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_-svAgOlPEe-VQ9irnkSD2A" base_Class="_-sr9MOlPEe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_FB2IcOlQEe-VQ9irnkSD2A" base_Class="_FBzsMOlQEe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_JLjIwOlQEe-VQ9irnkSD2A" base_Class="_JLgsgOlQEe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_PNNJMOlQEe-VQ9irnkSD2A" base_Class="_PNKs8OlQEe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_VFqKUOlQEe-VQ9irnkSD2A" base_Class="_VFnuEOlQEe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_kX8ooOlQEe-VQ9irnkSD2A" base_Class="_kX6MYOlQEe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_CymNMOlREe-VQ9irnkSD2A" base_Class="_CykYAOlREe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_PFUjEOlREe-VQ9irnkSD2A" base_Class="_PFSt4OlREe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_PG8zYOlUEe-VQ9irnkSD2A" base_Class="_PG5JAOlUEe-VQ9irnkSD2A"/>
+  <Blocks:Block xmi:id="_VsoG4OlUEe-VQ9irnkSD2A" base_Class="_VslqoOlUEe-VQ9irnkSD2A"/>
 </xmi:XMI>
