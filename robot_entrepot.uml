@@ -81,6 +81,29 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_NCAogeRkEe-uIujTQgGQfg" name="environnement" type="_GxY_AORkEe-uIujTQgGQfg" association="_NB-zUORkEe-uIujTQgGQfg"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_NCDEwORkEe-uIujTQgGQfg" name="système de gestion logistique" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_NB-zUORkEe-uIujTQgGQfg"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ETrRQOoIEe-8MNWyOQHlLw" name="Inventaire"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_LumKsOoIEe-8MNWyOQHlLw" memberEnd="_Lup1EOoIEe-8MNWyOQHlLw _LuqcIOoIEe-8MNWyOQHlLw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LupOAOoIEe-8MNWyOQHlLw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LupOAeoIEe-8MNWyOQHlLw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Lup1EOoIEe-8MNWyOQHlLw" name="inventaire" type="_ETrRQOoIEe-8MNWyOQHlLw" association="_LumKsOoIEe-8MNWyOQHlLw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_LuqcIOoIEe-8MNWyOQHlLw" name="système de gestion logistique" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_LumKsOoIEe-8MNWyOQHlLw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_JITocOoJEe-8MNWyOQHlLw" name="Client"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Kf_NEOoJEe-8MNWyOQHlLw" memberEnd="_Kf_0IuoJEe-8MNWyOQHlLw _KgAbMOoJEe-8MNWyOQHlLw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Kf_0IOoJEe-8MNWyOQHlLw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Kf_0IeoJEe-8MNWyOQHlLw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Kf_0IuoJEe-8MNWyOQHlLw" name="inventaire" type="_ETrRQOoIEe-8MNWyOQHlLw" association="_Kf_NEOoJEe-8MNWyOQHlLw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KgAbMOoJEe-8MNWyOQHlLw" name="client" type="_JITocOoJEe-8MNWyOQHlLw" association="_Kf_NEOoJEe-8MNWyOQHlLw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_CuPSkOoKEe-8MNWyOQHlLw" memberEnd="_CuP5ouoKEe-8MNWyOQHlLw _CuP5o-oKEe-8MNWyOQHlLw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CuP5oOoKEe-8MNWyOQHlLw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CuP5oeoKEe-8MNWyOQHlLw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_CuP5ouoKEe-8MNWyOQHlLw" name="inventaire" type="_ETrRQOoIEe-8MNWyOQHlLw" association="_CuPSkOoKEe-8MNWyOQHlLw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_CuP5o-oKEe-8MNWyOQHlLw" name="opérateur logistique" type="_CdzjwOIQEe-EAu7TQH7SBw" association="_CuPSkOoKEe-8MNWyOQHlLw"/>
+      </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_SJEiwOIQEe-EAu7TQH7SBw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SJFJ0OIQEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuSgJskEeyRkvq7aCLpdg"/>
@@ -639,7 +662,7 @@ etc.</body>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_hsc4EOkWEe-Rdp3Ezmv2BQ" name="Sequence_diagrams">
       <packagedElement xmi:type="uml:Interaction" xmi:id="_kXKx4OkWEe-Rdp3Ezmv2BQ" name="Interaction1"/>
-      <packagedElement xmi:type="uml:Interaction" xmi:id="_l9gdkOkWEe-Rdp3Ezmv2BQ" name="Interaction2">
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_l9gdkOkWEe-Rdp3Ezmv2BQ" name="Modification de stock">
         <ownedComment xmi:type="uml:Comment" xmi:id="_9gAkIOlOEe-W3KYcEVLO5w" annotatedElement="_ZM6a8OlNEe-W3KYcEVLO5w">
           <body>Format: N_X.Y,N_X.Y, ...
 Avec N le nombre de produits à modifier (positif ou négatif)
@@ -648,21 +671,24 @@ X l'allé du produit et Y le bac (en somme l'emplacement de l'article)</body>
         <ownedComment xmi:type="uml:Comment" xmi:id="_uqhhIOlPEe-W3KYcEVLO5w" annotatedElement="_c377MOlNEe-W3KYcEVLO5w">
           <body>Modification BDD</body>
         </ownedComment>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_H1bKsOlNEe-W3KYcEVLO5w" name="Gestionnaire de Stock" coveredBy="_ZM7CAelNEe-W3KYcEVLO5w _c38iQOlNEe-W3KYcEVLO5w _VzXFMOlNEe-W3KYcEVLO5w _VzV3EOlNEe-W3KYcEVLO5w _c38iQelNEe-W3KYcEVLO5w"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_ObITYOlNEe-W3KYcEVLO5w" name="opérateur logistique" coveredBy="_ZM7CAOlNEe-W3KYcEVLO5w"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_O3X5gOoIEe-8MNWyOQHlLw" name="" type="_ETrRQOoIEe-8MNWyOQHlLw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_QtK9gOoIEe-8MNWyOQHlLw" name="" type="_B0gzQOLNEe-WBaF1b5xkaw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_H1bKsOlNEe-W3KYcEVLO5w" name="Gestionnaire de Stock" represents="_O3X5gOoIEe-8MNWyOQHlLw" coveredBy="_ZM7CAelNEe-W3KYcEVLO5w _c38iQOlNEe-W3KYcEVLO5w _c38iQelNEe-W3KYcEVLO5w _VzXFMOlNEe-W3KYcEVLO5w _VzV3EOlNEe-W3KYcEVLO5w"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_ObITYOlNEe-W3KYcEVLO5w" name="opérateur logistique" represents="_QtK9gOoIEe-8MNWyOQHlLw" coveredBy="_ZM7CAOlNEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZM7CAOlNEe-W3KYcEVLO5w" name="Message6SendEvent" covered="_ObITYOlNEe-W3KYcEVLO5w" message="_ZM6a8OlNEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZM7CAelNEe-W3KYcEVLO5w" name="Message6ReceiveEvent" covered="_H1bKsOlNEe-W3KYcEVLO5w" message="_ZM6a8OlNEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_VzV3EOlNEe-W3KYcEVLO5w" name="ActionExecutionSpecification3" covered="_H1bKsOlNEe-W3KYcEVLO5w" finish="_VzXFMOlNEe-W3KYcEVLO5w" start="_ZM7CAelNEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_c38iQOlNEe-W3KYcEVLO5w" name="Message8SendEvent" covered="_H1bKsOlNEe-W3KYcEVLO5w" message="_c377MOlNEe-W3KYcEVLO5w"/>
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_VzXFMOlNEe-W3KYcEVLO5w" name="ActionExecutionSpecification3Finish" covered="_H1bKsOlNEe-W3KYcEVLO5w" execution="_VzV3EOlNEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_c38iQelNEe-W3KYcEVLO5w" name="Message8ReceiveEvent" covered="_H1bKsOlNEe-W3KYcEVLO5w" message="_c377MOlNEe-W3KYcEVLO5w"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_VzXFMOlNEe-W3KYcEVLO5w" name="ActionExecutionSpecification3Finish" covered="_H1bKsOlNEe-W3KYcEVLO5w" execution="_VzV3EOlNEe-W3KYcEVLO5w"/>
         <message xmi:type="uml:Message" xmi:id="_ZM6a8OlNEe-W3KYcEVLO5w" name="ModificationStock" messageSort="asynchCall" receiveEvent="_ZM7CAelNEe-W3KYcEVLO5w" sendEvent="_ZM7CAOlNEe-W3KYcEVLO5w"/>
         <message xmi:type="uml:Message" xmi:id="_c377MOlNEe-W3KYcEVLO5w" name="UpdateStock" messageSort="asynchCall" receiveEvent="_c38iQelNEe-W3KYcEVLO5w" sendEvent="_c38iQOlNEe-W3KYcEVLO5w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interaction" xmi:id="_oLFIYOkWEe-Rdp3Ezmv2BQ" name="Interaction3">
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_oLFIYOkWEe-Rdp3Ezmv2BQ" name="Demande d'article du client">
         <ownedComment xmi:type="uml:Comment" xmi:id="_IIpzQOlOEe-W3KYcEVLO5w" annotatedElement="_UnA4wOlLEe-W3KYcEVLO5w">
-          <body>Format: X.Y,X.Y,...
-Avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des l'articles séparé par des virgules
+          <body>Format: N_X.Y,N_X.Y,...
+N > 0, le nombre d'article X.Y voulu
+avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des l'articles séparé par des virgules
 </body>
         </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="_uZw9wOlOEe-W3KYcEVLO5w" annotatedElement="_u5VWAOlLEe-W3KYcEVLO5w">
@@ -671,8 +697,9 @@ Avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
         <ownedComment xmi:type="uml:Comment" xmi:id="_3m8fAOlOEe-W3KYcEVLO5w" annotatedElement="_OoZIwOlMEe-W3KYcEVLO5w">
           <body>Meme format que pour EnvoieCourse</body>
         </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TTth8OoIEe-8MNWyOQHlLw" name="" type="_ETrRQOoIEe-8MNWyOQHlLw"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_HAZ5IOlLEe-W3KYcEVLO5w" name="Client" coveredBy="_UnD8EOlLEe-W3KYcEVLO5w _u5WkIOlLEe-W3KYcEVLO5w _C3YY0OlMEe-W3KYcEVLO5w _IcuQselMEe-W3KYcEVLO5w"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_KsJLEOlLEe-W3KYcEVLO5w" name="Gestionnaire de Stock" coveredBy="_UnD8EelLEe-W3KYcEVLO5w _u5V9EOlLEe-W3KYcEVLO5w _C3YY0elMEe-W3KYcEVLO5w _IcuQsOlMEe-W3KYcEVLO5w _OoZIwelMEe-W3KYcEVLO5w _EmHLgOlMEe-W3KYcEVLO5w _Yi9w8OlLEe-W3KYcEVLO5w"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_KsJLEOlLEe-W3KYcEVLO5w" name="Gestionnaire de Stock" represents="_TTth8OoIEe-8MNWyOQHlLw" coveredBy="_UnD8EelLEe-W3KYcEVLO5w _u5V9EOlLEe-W3KYcEVLO5w _C3YY0elMEe-W3KYcEVLO5w _IcuQsOlMEe-W3KYcEVLO5w _OoZIwelMEe-W3KYcEVLO5w _EmHLgOlMEe-W3KYcEVLO5w _Yi9w8OlLEe-W3KYcEVLO5w"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_M6i8UOlLEe-W3KYcEVLO5w" name="ordinateur central" coveredBy="_OoZv0OlMEe-W3KYcEVLO5w _NlStAOlMEe-W3KYcEVLO5w _NlRe4OlMEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UnD8EOlLEe-W3KYcEVLO5w" name="Message4SendEvent" covered="_HAZ5IOlLEe-W3KYcEVLO5w" message="_UnA4wOlLEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UnD8EelLEe-W3KYcEVLO5w" name="Message4ReceiveEvent" covered="_KsJLEOlLEe-W3KYcEVLO5w" message="_UnA4wOlLEe-W3KYcEVLO5w"/>
@@ -794,4 +821,5 @@ Avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
   <__SysML_Centrale_Lille.NonNormativeExtensions.Block:System xmi:id="_uJrncOR5Ee-nvMgiAx-0hw" base_Class="_uJk6GOR5Ee-nvMgiAx-0hw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_uJrnceR5Ee-nvMgiAx-0hw" base_Class="_uJk6M-R5Ee-nvMgiAx-0hw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_nbkKpelQEe-W3KYcEVLO5w" base_Class="_nbhuYOlQEe-W3KYcEVLO5w"/>
+  <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_ET3egOoIEe-8MNWyOQHlLw" base_Class="_ETrRQOoIEe-8MNWyOQHlLw"/>
 </xmi:XMI>
