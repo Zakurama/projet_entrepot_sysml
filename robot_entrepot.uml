@@ -641,14 +641,14 @@ etc.</body>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_Q6qh0OlWEe-VQ9irnkSD2A" name="Lifeline3" represents="_aySuQOlWEe-VQ9irnkSD2A" coveredBy="_NcSEgOlYEe-VQ9irnkSD2A"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_RShBIOlWEe-VQ9irnkSD2A" name="Lifeline4" represents="_fDwjcOlWEe-VQ9irnkSD2A" coveredBy="_jLMoAelYEe-VQ9irnkSD2A _slWzIOu6Ee-Wgo7_1lCY2Q _xs8_EOu6Ee-Wgo7_1lCY2Q _xs7w8Ou6Ee-Wgo7_1lCY2Q"/>
         <lifeline xmi:type="uml:Lifeline" xmi:id="_RpvOUOlWEe-VQ9irnkSD2A" name="Lifeline5" represents="_hmkecOlWEe-VQ9irnkSD2A" coveredBy="_slWzIeu6Ee-Wgo7_1lCY2Q _zx-K0Ou6Ee-Wgo7_1lCY2Q _zx9jwOu6Ee-Wgo7_1lCY2Q"/>
-        <lifeline xmi:type="uml:Lifeline" xmi:id="_kxh-kOlWEe-VQ9irnkSD2A" name="Lifeline11" represents="_lhfb4OlWEe-VQ9irnkSD2A" coveredBy="_Wb4SMelXEe-VQ9irnkSD2A _hyREAOu6Ee-Wgo7_1lCY2Q _hyP14Ou6Ee-Wgo7_1lCY2Q _6k-AQOlXEe-VQ9irnkSD2A _6k-nUOlXEe-VQ9irnkSD2A _SJ1YwOlYEe-VQ9irnkSD2A _Wd-HcOlYEe-VQ9irnkSD2A _Wd-ugOlYEe-VQ9irnkSD2A _cUInYOu6Ee-Wgo7_1lCY2Q _cT-2YOu6Ee-Wgo7_1lCY2Q _jLMoAOlYEe-VQ9irnkSD2A _vaAHMelYEe-VQ9irnkSD2A"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_kxh-kOlWEe-VQ9irnkSD2A" name="Lifeline11" represents="_lhfb4OlWEe-VQ9irnkSD2A" coveredBy="_Wb4SMelXEe-VQ9irnkSD2A _hyREAOu6Ee-Wgo7_1lCY2Q _hyP14Ou6Ee-Wgo7_1lCY2Q _6k-AQOlXEe-VQ9irnkSD2A _6k-nUOlXEe-VQ9irnkSD2A _SJ1YwOlYEe-VQ9irnkSD2A _Wd-HcOlYEe-VQ9irnkSD2A _cUInYOu6Ee-Wgo7_1lCY2Q _cT-2YOu6Ee-Wgo7_1lCY2Q _Wd-ugOlYEe-VQ9irnkSD2A _jLMoAOlYEe-VQ9irnkSD2A _vaAHMelYEe-VQ9irnkSD2A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QSRPoOlXEe-VQ9irnkSD2A" name="Message13SendEvent" covered="_P-5dIOlWEe-VQ9irnkSD2A" message="_QSQBgOlXEe-VQ9irnkSD2A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QSR2sOlXEe-VQ9irnkSD2A" name="Message13ReceiveEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_QSQBgOlXEe-VQ9irnkSD2A"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_es-uEOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification31" covered="_QY4DYOlWEe-VQ9irnkSD2A" finish="_es_8MOu6Ee-Wgo7_1lCY2Q" start="_QSR2sOlXEe-VQ9irnkSD2A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wb4SMOlXEe-VQ9irnkSD2A" name="Message16SendEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_Wb3rIOlXEe-VQ9irnkSD2A"/>
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_es_8MOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification31Finish" covered="_QY4DYOlWEe-VQ9irnkSD2A" execution="_es-uEOu6Ee-Wgo7_1lCY2Q"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wb4SMelXEe-VQ9irnkSD2A" name="Message16ReceiveEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_Wb3rIOlXEe-VQ9irnkSD2A"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_hyP14Ou6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification33" covered="_kxh-kOlWEe-VQ9irnkSD2A" finish="_hyREAOu6Ee-Wgo7_1lCY2Q" start="_Wb4SMelXEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_es_8MOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification31Finish" covered="_QY4DYOlWEe-VQ9irnkSD2A" execution="_es-uEOu6Ee-Wgo7_1lCY2Q"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_hyREAOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification33Finish" covered="_kxh-kOlWEe-VQ9irnkSD2A" execution="_hyP14Ou6Ee-Wgo7_1lCY2Q"/>
         <fragment xmi:type="uml:CombinedFragment" xmi:id="_6k-AQOlXEe-VQ9irnkSD2A" name="CombinedFragment19" covered="_kxh-kOlWEe-VQ9irnkSD2A" interactionOperator="loop">
           <operand xmi:type="uml:InteractionOperand" xmi:id="_6k-nUOlXEe-VQ9irnkSD2A" name="InteractionOperand0" covered="_kxh-kOlWEe-VQ9irnkSD2A">
@@ -660,15 +660,15 @@ etc.</body>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SJ1YwOlYEe-VQ9irnkSD2A" name="Message21ReceiveEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_SJzjkOlYEe-VQ9irnkSD2A"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wd-HcOlYEe-VQ9irnkSD2A" name="Message22SendEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_Wd9gYOlYEe-VQ9irnkSD2A"/>
             <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_cT-2YOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification31" covered="_kxh-kOlWEe-VQ9irnkSD2A" finish="_cUInYOu6Ee-Wgo7_1lCY2Q" start="_Wd-HcOlYEe-VQ9irnkSD2A"/>
-            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wd-ugOlYEe-VQ9irnkSD2A" name="Message22ReceiveEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_Wd9gYOlYEe-VQ9irnkSD2A"/>
             <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_cUInYOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification31Finish" covered="_kxh-kOlWEe-VQ9irnkSD2A" execution="_cT-2YOu6Ee-Wgo7_1lCY2Q"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Wd-ugOlYEe-VQ9irnkSD2A" name="Message22ReceiveEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_Wd9gYOlYEe-VQ9irnkSD2A"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jLMoAOlYEe-VQ9irnkSD2A" name="Message23SendEvent" covered="_kxh-kOlWEe-VQ9irnkSD2A" message="_jLMA8OlYEe-VQ9irnkSD2A"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jLMoAelYEe-VQ9irnkSD2A" name="Message23ReceiveEvent" covered="_RShBIOlWEe-VQ9irnkSD2A" message="_jLMA8OlYEe-VQ9irnkSD2A"/>
             <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_xs7w8Ou6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification35" covered="_RShBIOlWEe-VQ9irnkSD2A" finish="_xs8_EOu6Ee-Wgo7_1lCY2Q" start="_jLMoAelYEe-VQ9irnkSD2A"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_slWzIOu6Ee-Wgo7_1lCY2Q" name="Message34SendEvent" covered="_RShBIOlWEe-VQ9irnkSD2A" message="_slQFcOu6Ee-Wgo7_1lCY2Q"/>
-            <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_xs8_EOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification35Finish" covered="_RShBIOlWEe-VQ9irnkSD2A" execution="_xs7w8Ou6Ee-Wgo7_1lCY2Q"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_slWzIeu6Ee-Wgo7_1lCY2Q" name="Message34ReceiveEvent" covered="_RpvOUOlWEe-VQ9irnkSD2A" message="_slQFcOu6Ee-Wgo7_1lCY2Q"/>
             <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_zx9jwOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification35" covered="_RpvOUOlWEe-VQ9irnkSD2A" finish="_zx-K0Ou6Ee-Wgo7_1lCY2Q" start="_slWzIeu6Ee-Wgo7_1lCY2Q"/>
+            <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_xs8_EOu6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification35Finish" covered="_RShBIOlWEe-VQ9irnkSD2A" execution="_xs7w8Ou6Ee-Wgo7_1lCY2Q"/>
             <guard xmi:type="uml:InteractionConstraint" xmi:id="_6k-nUelXEe-VQ9irnkSD2A" name="guard"/>
           </operand>
         </fragment>
@@ -677,9 +677,9 @@ etc.</body>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vaAHMulYEe-VQ9irnkSD2A" name="Message25ReceiveEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_vaAHMOlYEe-VQ9irnkSD2A"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_402O0Ou6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification36" covered="_QY4DYOlWEe-VQ9irnkSD2A" finish="_40214Ou6Ee-Wgo7_1lCY2Q" start="_vaAHMulYEe-VQ9irnkSD2A"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7ygU8OlYEe-VQ9irnkSD2A" name="Message28SendEvent" covered="_QY4DYOlWEe-VQ9irnkSD2A" message="_7yfG0OlYEe-VQ9irnkSD2A"/>
-        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_40214Ou6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification36Finish" covered="_QY4DYOlWEe-VQ9irnkSD2A" execution="_402O0Ou6Ee-Wgo7_1lCY2Q"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7ygU8elYEe-VQ9irnkSD2A" name="Message28ReceiveEvent" covered="_P-5dIOlWEe-VQ9irnkSD2A" message="_7yfG0OlYEe-VQ9irnkSD2A"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_HE2JsOu7Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification38" covered="_P-5dIOlWEe-VQ9irnkSD2A" finish="_HE3X0Ou7Ee-Wgo7_1lCY2Q" start="_7ygU8elYEe-VQ9irnkSD2A"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_40214Ou6Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification36Finish" covered="_QY4DYOlWEe-VQ9irnkSD2A" execution="_402O0Ou6Ee-Wgo7_1lCY2Q"/>
         <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HE3X0Ou7Ee-Wgo7_1lCY2Q" name="ActionExecutionSpecification38Finish" covered="_P-5dIOlWEe-VQ9irnkSD2A" execution="_HE2JsOu7Ee-Wgo7_1lCY2Q"/>
         <message xmi:type="uml:Message" xmi:id="_QSQBgOlXEe-VQ9irnkSD2A" name="Reçoit une demande de position" messageSort="asynchCall" receiveEvent="_QSR2sOlXEe-VQ9irnkSD2A" sendEvent="_QSRPoOlXEe-VQ9irnkSD2A"/>
         <message xmi:type="uml:Message" xmi:id="_Wb3rIOlXEe-VQ9irnkSD2A" name="Transmet cette position" messageSort="asynchCall" receiveEvent="_Wb4SMelXEe-VQ9irnkSD2A" sendEvent="_Wb4SMOlXEe-VQ9irnkSD2A"/>
@@ -704,6 +704,7 @@ etc.</body>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_f3Ny8OvCEe-Wgo7_1lCY2Q" name="Alimentation RPI" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_kpeBAOvCEe-Wgo7_1lCY2Q" name="USB" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_KibKMOvDEe-Wgo7_1lCY2Q" name="Port serial" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_tbb7APCmEe-N1ohVtA_7bw" name="module wifi" type="_PFSt4OlREe-VQ9irnkSD2A" aggregation="composite" association="_tbXCgPCmEe-N1ohVtA_7bw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_-sr9MOlPEe-VQ9irnkSD2A" name="Arduino">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_QT1W4uu9Ee-Wgo7_1lCY2Q" name="raspberry pi" type="_ZopCwOlPEe-VQ9irnkSD2A" association="_QT0v0Ou9Ee-Wgo7_1lCY2Q">
@@ -736,7 +737,7 @@ etc.</body>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_grWX4uu9Ee-Wgo7_1lCY2Q" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_grMm4Ou9Ee-Wgo7_1lCY2Q"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_5-gkkOvFEe-Wgo7_1lCY2Q" name="Commande moteur" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_b0avEOvGEe-Wgo7_1lCY2Q" name="Rotor" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_b0avEOvGEe-Wgo7_1lCY2Q" name="Axe moteur" aggregation="composite"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_VFnuEOlQEe-VQ9irnkSD2A" name="Capteur rotation">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hHu4QulUEe-VQ9irnkSD2A" name="moteurs" type="_JLgsgOlQEe-VQ9irnkSD2A" association="_hHtqIOlUEe-VQ9irnkSD2A">
@@ -744,7 +745,7 @@ etc.</body>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hdzIhuu9Ee-Wgo7_1lCY2Q" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_hdzIgOu9Ee-Wgo7_1lCY2Q"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_qSvZ0OvGEe-Wgo7_1lCY2Q" name="Vitesse rotation" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_KGLWQOvHEe-Wgo7_1lCY2Q" name="Trou rotor" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_KGLWQOvHEe-Wgo7_1lCY2Q" name="Entrée mécanique" aggregation="composite"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_PFSt4OlREe-VQ9irnkSD2A" name="Module Wifi"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_CykYAOlREe-VQ9irnkSD2A" name="Robot">
@@ -809,13 +810,6 @@ etc.</body>
           <end xmi:type="uml:ConnectorEnd" xmi:id="_tGmWoevIEe-Wgo7_1lCY2Q" partWithPort="_QPtAouvEEe-Wgo7_1lCY2Q" role="_5-gkkOvFEe-Wgo7_1lCY2Q"/>
         </ownedConnector>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_cJGF8OlSEe-VQ9irnkSD2A" memberEnd="_cJGtAulSEe-VQ9irnkSD2A _cJGtA-lSEe-VQ9irnkSD2A">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cJGtAOlSEe-VQ9irnkSD2A" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cJGtAelSEe-VQ9irnkSD2A" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_cJGtAulSEe-VQ9irnkSD2A" name="module wifi" type="_PFSt4OlREe-VQ9irnkSD2A" aggregation="composite" association="_cJGF8OlSEe-VQ9irnkSD2A"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_cJGtA-lSEe-VQ9irnkSD2A" name="raspberry pi" type="_ZopCwOlPEe-VQ9irnkSD2A" association="_cJGF8OlSEe-VQ9irnkSD2A"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_PG5JAOlUEe-VQ9irnkSD2A" name="Chenille">
         <ownedAttribute xmi:type="uml:Property" xmi:id="_JoB3IulVEe-VQ9irnkSD2A" name="moteurs" type="_JLgsgOlQEe-VQ9irnkSD2A" association="_JoApAOlVEe-VQ9irnkSD2A">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O3HyMOlVEe-VQ9irnkSD2A" value="2"/>
@@ -873,13 +867,13 @@ etc.</body>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_ngaAoeu8Ee-Wgo7_1lCY2Q" name="robot" type="_CykYAOlREe-VQ9irnkSD2A" association="_ngQPoOu8Ee-Wgo7_1lCY2Q"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_NEWjIOu9Ee-Wgo7_1lCY2Q" memberEnd="_NEXKMuu9Ee-Wgo7_1lCY2Q _NEXKNeu9Ee-Wgo7_1lCY2Q">
+      <packagedElement xmi:type="uml:Association" xmi:id="_NEWjIOu9Ee-Wgo7_1lCY2Q" name="alimente" memberEnd="_NEXKMuu9Ee-Wgo7_1lCY2Q _NEXKNeu9Ee-Wgo7_1lCY2Q">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NEXKMOu9Ee-Wgo7_1lCY2Q" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NEXKMeu9Ee-Wgo7_1lCY2Q" key="nature" value="UML_Nature"/>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_NEXKNeu9Ee-Wgo7_1lCY2Q" name="batterie" type="_GdkR0Ou8Ee-Wgo7_1lCY2Q" association="_NEWjIOu9Ee-Wgo7_1lCY2Q"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_PEX6IOu9Ee-Wgo7_1lCY2Q" memberEnd="_PEX6I-u9Ee-Wgo7_1lCY2Q _PEYhMuu9Ee-Wgo7_1lCY2Q">
+      <packagedElement xmi:type="uml:Association" xmi:id="_PEX6IOu9Ee-Wgo7_1lCY2Q" name="alimente" memberEnd="_PEX6I-u9Ee-Wgo7_1lCY2Q _PEYhMuu9Ee-Wgo7_1lCY2Q">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PEX6Ieu9Ee-Wgo7_1lCY2Q" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PEX6Iuu9Ee-Wgo7_1lCY2Q" key="nature" value="UML_Nature"/>
         </eAnnotations>
@@ -922,6 +916,12 @@ etc.</body>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_b-EPwevFEe-Wgo7_1lCY2Q" key="nature" value="UML_Nature"/>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_b-EPxevFEe-Wgo7_1lCY2Q" name="robot" type="_CykYAOlREe-VQ9irnkSD2A" association="_b-DosOvFEe-Wgo7_1lCY2Q"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_tbXCgPCmEe-N1ohVtA_7bw" visibility="package" memberEnd="_tbb7APCmEe-N1ohVtA_7bw _tbeXQfCmEe-N1ohVtA_7bw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tbas4PCmEe-N1ohVtA_7bw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tbas4fCmEe-N1ohVtA_7bw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_tbeXQfCmEe-N1ohVtA_7bw" name="raspberry pi" type="_ZopCwOlPEe-VQ9irnkSD2A" association="_tbXCgPCmEe-N1ohVtA_7bw"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bhr_UOINEe-EAu7TQH7SBw">
