@@ -8,7 +8,16 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="__eN4EOINEe-EAu7TQH7SBw" name="Contexte">
-      <packagedElement xmi:type="uml:Class" xmi:id="_WU1DcOIOEe-EAu7TQH7SBw" name="Système de gestion logistique"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_WU1DcOIOEe-EAu7TQH7SBw" name="Système de gestion logistique">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lZRPMfEFEe-BJtTCb590xQ" name="ordinateur " type="_iZNXgPEFEe-BJtTCb590xQ" aggregation="composite" association="_lZOy8PEFEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lZVgoPEFEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lZZLAPEFEe-BJtTCb590xQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_28c1QPEJEe-BJtTCb590xQ" name="stock" type="_0yNLQPEJEe-BJtTCb590xQ" aggregation="composite" association="_28aZAPEJEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_28dcUPEJEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_28dcUfEJEe-BJtTCb590xQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_CdzjwOIQEe-EAu7TQH7SBw" name="Opérateur logistique"/>
       <packagedElement xmi:type="uml:Actor" xmi:id="_EetrkOIQEe-EAu7TQH7SBw" name="Technicien de maintenance"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_HQIDQOIQEe-EAu7TQH7SBw" memberEnd="_HQLtoOIQEe-EAu7TQH7SBw _HQMUsOIQEe-EAu7TQH7SBw">
@@ -27,7 +36,12 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_dJI98OIQEe-EAu7TQH7SBw" name="Rayonnage"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_mq9ScOIQEe-EAu7TQH7SBw" name="Bacs de collecte"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_lcMZQOIQEe-EAu7TQH7SBw" name="Système de localisation"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lcMZQOIQEe-EAu7TQH7SBw" name="Système de localisation">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_5hdQAPEGEe-BJtTCb590xQ" name="ordinateur central" type="_iZNXgPEFEe-BJtTCb590xQ" association="_5hba0PEGEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5hfFMPEGEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5hg6YPEGEe-BJtTCb590xQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_wSSjoOIREe-EAu7TQH7SBw" memberEnd="_wSU_4OIREe-EAu7TQH7SBw _wSW1EOIREe-EAu7TQH7SBw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wSUY0OIREe-EAu7TQH7SBw" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wSUY0eIREe-EAu7TQH7SBw" key="nature" value="UML_Nature"/>
@@ -65,7 +79,11 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_0KtXwORjEe-uIujTQgGQfg" name="système de gestion logistique avec robots ultimate" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_0KptYORjEe-uIujTQgGQfg"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_0Kt-0ORjEe-uIujTQgGQfg" name="développeur" type="_vFWngORjEe-uIujTQgGQfg" association="_0KptYORjEe-uIujTQgGQfg"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_5Y23oORjEe-uIujTQgGQfg" name="Robots Ultimate"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_5Y23oORjEe-uIujTQgGQfg" name="Robots Ultimate">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_IBVr4PEFEe-BJtTCb590xQ" name="wifi" type="_9XrowPEIEe-BJtTCb590xQ" association="_IBNJAPEFEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LINWMPEFEe-BJtTCb590xQ"/>
+        </ownedAttribute>
+      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_BVL1AORkEe-uIujTQgGQfg" memberEnd="_BVPfYeRkEe-uIujTQgGQfg _BVR7oORkEe-uIujTQgGQfg">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BVO4UORkEe-uIujTQgGQfg" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BVPfYORkEe-uIujTQgGQfg" key="nature" value="UML_Nature"/>
@@ -1012,6 +1030,115 @@ avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_tbeXQfCmEe-N1ohVtA_7bw" name="raspberry pi" type="_ZopCwOlPEe-VQ9irnkSD2A" association="_tbXCgPCmEe-N1ohVtA_7bw"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_IBNJAPEFEe-BJtTCb590xQ" name="transmet pos 1" visibility="package" memberEnd="_IBVr4PEFEe-BJtTCb590xQ _IBYvMPEFEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IBUdwPEFEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IBVE0PEFEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_IBYvMPEFEe-BJtTCb590xQ" name="robot" type="_5Y23oORjEe-uIujTQgGQfg" association="_IBNJAPEFEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TbT_YPEGEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L30OMPEFEe-BJtTCb590xQ" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_iZNXgPEFEe-BJtTCb590xQ" name="Ordinateur central">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_WArXwfEJEe-BJtTCb590xQ" name="wifi" type="_9XrowPEIEe-BJtTCb590xQ" association="_WAqJoPEJEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WArXwvEJEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WAr-0PEJEe-BJtTCb590xQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_c_XLsvEKEe-BJtTCb590xQ" name="opérateur logistique" type="_Xpy1MPEKEe-BJtTCb590xQ" association="_c_VWgPEKEe-BJtTCb590xQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mx75APEKEe-BJtTCb590xQ" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_wbvr4vEKEe-BJtTCb590xQ" name="client" type="_tfQFkPEKEe-BJtTCb590xQ" association="_wbudwPEKEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0J8b8PEKEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0KIpMPEKEe-BJtTCb590xQ" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_lZOy8PEFEe-BJtTCb590xQ" memberEnd="_lZRPMfEFEe-BJtTCb590xQ _lZbnQPEFEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lZQoIPEFEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lZRPMPEFEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_lZbnQPEFEe-BJtTCb590xQ" name="système de gestion logistique" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_lZOy8PEFEe-BJtTCb590xQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5hba0PEGEe-BJtTCb590xQ" memberEnd="_5hdQAPEGEe-BJtTCb590xQ _5hjWoPEGEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5hco8PEGEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5hco8fEGEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5hjWoPEGEe-BJtTCb590xQ" name="système de localisation" type="_lcMZQOIQEe-EAu7TQH7SBw" association="_5hba0PEGEe-BJtTCb590xQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_9XrowPEIEe-BJtTCb590xQ" name="Module WiFi">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_KlOoIfEJEe-BJtTCb590xQ" name="ordinateur " type="_iZNXgPEFEe-BJtTCb590xQ" association="_KlMy8PEJEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KlOoIvEJEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KlOoI_EJEe-BJtTCb590xQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_q98b4vEJEe-BJtTCb590xQ" name="robot" type="_5Y23oORjEe-uIujTQgGQfg" association="_q9700PEJEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tLM9oPEJEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tLXVsPEJEe-BJtTCb590xQ" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KlMy8PEJEe-BJtTCb590xQ" name="transmet pos 2" memberEnd="_KlOoIfEJEe-BJtTCb590xQ _KlPPMPEJEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KlOBEPEJEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KlOoIPEJEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KlPPMPEJEe-BJtTCb590xQ" name="wifi" type="_9XrowPEIEe-BJtTCb590xQ" association="_KlMy8PEJEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fTME8PEJEe-BJtTCb590xQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WAqJoPEJEe-BJtTCb590xQ" name="transmet comm pos 1" memberEnd="_WArXwfEJEe-BJtTCb590xQ _WAr-0fEJEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WAqwsPEJEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WArXwPEJEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_WAr-0fEJEe-BJtTCb590xQ" name="ordinateur" type="_iZNXgPEFEe-BJtTCb590xQ" association="_WAqJoPEJEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eRIyEPEJEe-BJtTCb590xQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_q9700PEJEe-BJtTCb590xQ" name="transmet comm pos 2" visibility="package" memberEnd="_q98b4vEJEe-BJtTCb590xQ _q99C8vEJEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q98b4PEJEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q98b4fEJEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_q99C8vEJEe-BJtTCb590xQ" name="wifi" type="_9XrowPEIEe-BJtTCb590xQ" association="_q9700PEJEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uELNAPEJEe-BJtTCb590xQ"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0yNLQPEJEe-BJtTCb590xQ" name="Inventaire"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_28aZAPEJEe-BJtTCb590xQ" memberEnd="_28c1QPEJEe-BJtTCb590xQ _28eDYPEJEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_28cOMPEJEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_28cOMfEJEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_28eDYPEJEe-BJtTCb590xQ" name="système de gestion logistique" type="_WU1DcOIOEe-EAu7TQH7SBw" association="_28aZAPEJEe-BJtTCb590xQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_F4mrgPEKEe-BJtTCb590xQ" name="stock article" memberEnd="_F4n5ofEKEe-BJtTCb590xQ _F4ogsfEKEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_F4nSkPEKEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_F4n5oPEKEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_F4ogsfEKEe-BJtTCb590xQ" name="ordinateur" type="_iZNXgPEFEe-BJtTCb590xQ" association="_F4mrgPEKEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HdciYPEKEe-BJtTCb590xQ"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_F4n5ofEKEe-BJtTCb590xQ" name="stock" type="_0yNLQPEJEe-BJtTCb590xQ" association="_F4mrgPEKEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F4n5ovEKEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F4ogsPEKEe-BJtTCb590xQ" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Xpy1MPEKEe-BJtTCb590xQ" name="Opérateur logistique">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_c_WkovEKEe-BJtTCb590xQ" name="ordinateur" type="_iZNXgPEFEe-BJtTCb590xQ" association="_c_VWgPEKEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c_XLsPEKEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c_XLsfEKEe-BJtTCb590xQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_c_VWgPEKEe-BJtTCb590xQ" name="In/out stock/robot" visibility="package" memberEnd="_c_WkovEKEe-BJtTCb590xQ _c_XLsvEKEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_c_WkoPEKEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_c_WkofEKEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_tfQFkPEKEe-BJtTCb590xQ" name="Client">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_wbvE0vEKEe-BJtTCb590xQ" name="ordinateur" type="_iZNXgPEFEe-BJtTCb590xQ" association="_wbudwPEKEe-BJtTCb590xQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wbvr4PEKEe-BJtTCb590xQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wbvr4fEKEe-BJtTCb590xQ" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_wbudwPEKEe-BJtTCb590xQ" name="Commande article" memberEnd="_wbvE0vEKEe-BJtTCb590xQ _wbvr4vEKEe-BJtTCb590xQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wbvE0PEKEe-BJtTCb590xQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wbvE0fEKEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bhr_UOINEe-EAu7TQH7SBw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bhw30OINEe-EAu7TQH7SBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -1144,4 +1271,9 @@ avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
   <Blocks:NestedConnectorEnd xmi:id="_X0hgIOvIEe-Wgo7_1lCY2Q" base_Element="_X0g5EevIEe-Wgo7_1lCY2Q" propertyPath="_7Ewmg-u7Ee-Wgo7_1lCY2Q" base_ConnectorEnd="_X0g5EevIEe-Wgo7_1lCY2Q"/>
   <Blocks:NestedConnectorEnd xmi:id="_tGmWouvIEe-Wgo7_1lCY2Q" base_Element="_tGmWoOvIEe-Wgo7_1lCY2Q" propertyPath="_7Ewmg-u7Ee-Wgo7_1lCY2Q" base_ConnectorEnd="_tGmWoOvIEe-Wgo7_1lCY2Q"/>
   <Blocks:NestedConnectorEnd xmi:id="_tGnkwOvIEe-Wgo7_1lCY2Q" base_Element="_tGmWoevIEe-Wgo7_1lCY2Q" propertyPath="_QPtAouvEEe-Wgo7_1lCY2Q" base_ConnectorEnd="_tGmWoevIEe-Wgo7_1lCY2Q"/>
+  <Blocks:Block xmi:id="_iZnnMPEFEe-BJtTCb590xQ" base_Class="_iZNXgPEFEe-BJtTCb590xQ"/>
+  <Blocks:Block xmi:id="_9XyWcPEIEe-BJtTCb590xQ" base_Class="_9XrowPEIEe-BJtTCb590xQ"/>
+  <Blocks:Block xmi:id="_0yRcsPEJEe-BJtTCb590xQ" base_Class="_0yNLQPEJEe-BJtTCb590xQ"/>
+  <Blocks:Block xmi:id="_Xp4UwPEKEe-BJtTCb590xQ" base_Class="_Xpy1MPEKEe-BJtTCb590xQ"/>
+  <Blocks:Block xmi:id="_tfVlIPEKEe-BJtTCb590xQ" base_Class="_tfQFkPEKEe-BJtTCb590xQ"/>
 </xmi:XMI>
