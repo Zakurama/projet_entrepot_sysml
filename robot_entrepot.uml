@@ -131,11 +131,10 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_cB8Q4OIGEe-EAu7TQH7SBw" name="Exigences">
       <packagedElement xmi:type="uml:Class" xmi:id="_UC2d8OIHEe-EAu7TQH7SBw" name="Trier des objets">
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_AIwKgOMZEe-MXuvbNV2Jqw" name="Entrée de produits"/>
-        <nestedClassifier xmi:type="uml:Class" xmi:id="_bsoukOMfEe-MXuvbNV2Jqw" name="Sortie de produits">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_bsoukOMfEe-MXuvbNV2Jqw" name="Entrée et sortie de produits">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_fTGtsOMZEe-MXuvbNV2Jqw" name="Demande de produits"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_2z7o0OMbEe-MXuvbNV2Jqw" name="Préhension et transport"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_QK20gOIOEe-EAu7TQH7SBw" name="Optimisation des flux"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_2z7o0OMbEe-MXuvbNV2Jqw" name="Préhension et transport"/>
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_7W1eMOMZEe-MXuvbNV2Jqw" name="Etat du système">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_tsJIcOMcEe-MXuvbNV2Jqw" name="Etat distance"/>
@@ -172,6 +171,15 @@ Position du robot,
 Si le robot est bloqué
 etc.</body>
         </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Xvc-wPQfEe-76qBcIUcLpA" annotatedElement="_Wd8Z8OMQEe-LS6qPYN_9GQ">
+          <body>État de la batterie,
+Position du robot,
+Si le robot est bloqué
+etc.</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Oll3QPQfEe-76qBcIUcLpA" annotatedElement="_Hx8HQOMKEe-LS6qPYN_9GQ">
+          <body>L'environnement comprend le nombre de rayons, d'allées, de différents produits, de bacs ainsi que leur position etc.</body>
+        </ownedComment>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gKhk4OLMEe-WBaF1b5xkaw" name="Stopper un robot" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-5Ix0OLNEe-WBaF1b5xkaw" name="Installer le système" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_VK-xgOL1Ee-LS6qPYN_9GQ" name="Gérer les stocks logiciel" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
@@ -181,10 +189,10 @@ etc.</body>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_LiWBUOMLEe-LS6qPYN_9GQ" name="Envoyer en maintenance un robot" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_zZANUOMLEe-LS6qPYN_9GQ" name="Mettre au rebut un robot" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7_-GUOMPEe-LS6qPYN_9GQ" name="Changer des pièces sur les robots" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
-        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Wd8Z8OMQEe-LS6qPYN_9GQ" name="Récupérer l'état des robots" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_0DHIAOMQEe-LS6qPYN_9GQ" name="Effectuer des tests" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_UTibEOMUEe-LS6qPYN_9GQ" name="Modifier les paramètres du système" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
         <ownedUseCase xmi:type="uml:UseCase" xmi:id="_s9osEOlQEe-W3KYcEVLO5w" name="Chercher un article du stock" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
+        <nestedClassifier xmi:type="uml:UseCase" xmi:id="_Wd8Z8OMQEe-LS6qPYN_9GQ" name="Récupérer l'état des robots" subject="_di1w8OLMEe-WBaF1b5xkaw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_B0gzQOLNEe-WBaF1b5xkaw" name="Opérateur logistique"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_RDjJQOLNEe-WBaF1b5xkaw" memberEnd="_RDllgOLNEe-WBaF1b5xkaw _RDllgeLNEe-WBaF1b5xkaw">
@@ -671,6 +679,13 @@ etc.</body>
         <ownedEnd xmi:type="uml:Property" xmi:id="_3u_84OlQEe-W3KYcEVLO5w" name="chercher un article du stock" type="_s9osEOlQEe-W3KYcEVLO5w" association="_3u85kOlQEe-W3KYcEVLO5w"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_3vAj8OlQEe-W3KYcEVLO5w" name="robots ultimate" type="_nbhuYOlQEe-W3KYcEVLO5w" association="_3u85kOlQEe-W3KYcEVLO5w"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_ifTMoPQfEe-76qBcIUcLpA" memberEnd="_ifTzsvQfEe-76qBcIUcLpA _ifTzs_QfEe-76qBcIUcLpA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ifTzsPQfEe-76qBcIUcLpA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ifTzsfQfEe-76qBcIUcLpA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ifTzsvQfEe-76qBcIUcLpA" name="modifier les paramètres du système" type="_UTibEOMUEe-LS6qPYN_9GQ" association="_ifTMoPQfEe-76qBcIUcLpA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_ifTzs_QfEe-76qBcIUcLpA" name="installateur" type="_8sEdUOLNEe-WBaF1b5xkaw" association="_ifTMoPQfEe-76qBcIUcLpA"/>
+      </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_KYn3cOLPEe-WBaF1b5xkaw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KYrh0OLPEe-WBaF1b5xkaw" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="../___Profiles_Centrale_Lille_Project-2023-11/SysML_Profile/__SysML_Centrale_Lille.profile.uml#_lTuSgJskEeyRkvq7aCLpdg"/>
@@ -803,7 +818,9 @@ avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_wrRQ4OlPEe-VQ9irnkSD2A" name="Blocs_diagrams">
       <packagedElement xmi:type="uml:Class" xmi:id="_ZopCwOlPEe-VQ9irnkSD2A" name="Raspberry PI">
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_QT1W5eu9Ee-Wgo7_1lCY2Q" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_QT0v0Ou9Ee-Wgo7_1lCY2Q"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_QT1W5eu9Ee-Wgo7_1lCY2Q" name="arduino" type="_-sr9MOlPEe-VQ9irnkSD2A" association="_QT0v0Ou9Ee-Wgo7_1lCY2Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PzQv0PQVEe-TC57nw9L_6g"/>
+        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_bPcI0Ou9Ee-Wgo7_1lCY2Q" name="marvel mind" type="_FBzsMOlQEe-VQ9irnkSD2A" association="_bPbhwOu9Ee-Wgo7_1lCY2Q">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bPcI0eu9Ee-Wgo7_1lCY2Q"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bPcI0uu9Ee-Wgo7_1lCY2Q" value="1"/>
@@ -856,6 +873,11 @@ avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_PFSt4OlREe-VQ9irnkSD2A" name="Module Wifi"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_CykYAOlREe-VQ9irnkSD2A" name="Robot">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_LJkjsPQcEe-TC57nw9L_6g">
+          <body>vert = mécanique&#xD;
+rouge = électrique&#xD;
+bleu = information</body>
+        </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_19ET8uu7Ee-Wgo7_1lCY2Q" name="carcasse" type="_VslqoOlUEe-VQ9irnkSD2A" aggregation="composite" association="_19Ds4Ou7Ee-Wgo7_1lCY2Q">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19E7AOu7Ee-Wgo7_1lCY2Q"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19E7Aeu7Ee-Wgo7_1lCY2Q" value="1"/>
@@ -868,17 +890,13 @@ avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7EwmhOu7Ee-Wgo7_1lCY2Q"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7Ewmheu7Ee-Wgo7_1lCY2Q" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_752bc-u7Ee-Wgo7_1lCY2Q" name="chenille" type="_PG5JAOlUEe-VQ9irnkSD2A" aggregation="composite" association="_752bcOu7Ee-Wgo7_1lCY2Q">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_752bdOu7Ee-Wgo7_1lCY2Q"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_752bdeu7Ee-Wgo7_1lCY2Q" value="2"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_ngQPo-u8Ee-Wgo7_1lCY2Q" name="batterie" type="_GdkR0Ou8Ee-Wgo7_1lCY2Q" aggregation="composite" association="_ngQPoOu8Ee-Wgo7_1lCY2Q">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ngQPpOu8Ee-Wgo7_1lCY2Q"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ngaAoOu8Ee-Wgo7_1lCY2Q" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_QPtAouvEEe-Wgo7_1lCY2Q" name="moteur" type="_JLgsgOlQEe-VQ9irnkSD2A" aggregation="composite" association="_QPsZkOvEEe-Wgo7_1lCY2Q">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QPuOwOvEEe-Wgo7_1lCY2Q"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QPwD8OvEEe-Wgo7_1lCY2Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QPwD8OvEEe-Wgo7_1lCY2Q" value="2"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_h-JYU-vEEe-Wgo7_1lCY2Q" name="marvel mind" type="_FBzsMOlQEe-VQ9irnkSD2A" aggregation="composite" association="_h-JYUOvEEe-Wgo7_1lCY2Q">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_h-JYVOvEEe-Wgo7_1lCY2Q"/>
@@ -887,6 +905,10 @@ avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
         <ownedAttribute xmi:type="uml:Property" xmi:id="_b-EPwuvFEe-Wgo7_1lCY2Q" name="capteur rotation" type="_VFnuEOlQEe-VQ9irnkSD2A" aggregation="composite" association="_b-DosOvFEe-Wgo7_1lCY2Q">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b-EPw-vFEe-Wgo7_1lCY2Q"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b-EPxOvFEe-Wgo7_1lCY2Q" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_752bc-u7Ee-Wgo7_1lCY2Q" name="chenille" type="_PG5JAOlUEe-VQ9irnkSD2A" aggregation="composite" association="_752bcOu7Ee-Wgo7_1lCY2Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_752bdOu7Ee-Wgo7_1lCY2Q"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_752bdeu7Ee-Wgo7_1lCY2Q" value="2"/>
         </ownedAttribute>
         <ownedConnector xmi:type="uml:Connector" xmi:id="_d1zikOvHEe-Wgo7_1lCY2Q" name="Connector9">
           <end xmi:type="uml:ConnectorEnd" xmi:id="_d10JoOvHEe-Wgo7_1lCY2Q" partWithPort="_7Ewmg-u7Ee-Wgo7_1lCY2Q" role="_9DtCoOu_Ee-Wgo7_1lCY2Q"/>
@@ -1212,28 +1234,27 @@ avec X le numéro de l'allé et Y le numéro du bac. En somme l'emplacement des 
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_iBafAOIREe-EAu7TQH7SBw" base_Class="_mq9ScOIQEe-EAu7TQH7SBw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_kmE0IOIREe-EAu7TQH7SBw" base_Class="_dJI98OIQEe-EAu7TQH7SBw"/>
   <Requirements:Requirement xmi:id="_UC9LoOIHEe-EAu7TQH7SBw" base_NamedElement="_UC2d8OIHEe-EAu7TQH7SBw" id="1" text="Le système doit être capable de trier des produits dans un entrepôt." base_Class="_UC2d8OIHEe-EAu7TQH7SBw"/>
-  <Requirements:Requirement xmi:id="_Pt9r4OIIEe-EAu7TQH7SBw" base_NamedElement="_Pt7PoOIIEe-EAu7TQH7SBw" id="1.1.1.1.1" text="Les robot du système doivent être du type &quot;Ultimate&quot;." base_Class="_Pt7PoOIIEe-EAu7TQH7SBw"/>
-  <Requirements:Requirement xmi:id="_Zrl9MOIJEe-EAu7TQH7SBw" base_NamedElement="_ZrkIAOIJEe-EAu7TQH7SBw" id="1.1.1.1.3" text="Les robots du système doivent pouvoir se déplacer dans l'entrepôt." base_Class="_ZrkIAOIJEe-EAu7TQH7SBw"/>
-  <Requirements:Requirement xmi:id="_q65h0OIJEe-EAu7TQH7SBw" base_NamedElement="_q63FkOIJEe-EAu7TQH7SBw" id="1.1.1.1" text="Le système doit fonctionner avec une flotte de robots mobiles." base_Class="_q63FkOIJEe-EAu7TQH7SBw"/>
-  <Requirements:Requirement xmi:id="_zzZzkOIJEe-EAu7TQH7SBw" base_NamedElement="_zzX-YOIJEe-EAu7TQH7SBw" id="1.1.1.1.1.3.1" text="Les robots du système ne doivent pas se croiser dans les allées de l'entrepôt" base_Class="_zzX-YOIJEe-EAu7TQH7SBw"/>
-  <Requirements:Requirement xmi:id="_DKOMkOIKEe-EAu7TQH7SBw" base_NamedElement="_DKMXYOIKEe-EAu7TQH7SBw" id="1.4" text="Le système doit être capable de fonctionner seul, sans intervention extérieure." base_Class="_DKMXYOIKEe-EAu7TQH7SBw"/>
-  <Requirements:Requirement xmi:id="_N8LTQOIKEe-EAu7TQH7SBw" base_NamedElement="_N8JeEOIKEe-EAu7TQH7SBw" id="1.1.1.1.2" text="Le système doit permettre aux opérateurs d'ajuster le nombre de robot en plein fonctionnement." base_Class="_N8JeEOIKEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_Pt9r4OIIEe-EAu7TQH7SBw" base_NamedElement="_Pt7PoOIIEe-EAu7TQH7SBw" id="1.3.1.1.1" text="Les robot du système doivent être du type &quot;Ultimate&quot;." base_Class="_Pt7PoOIIEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_Zrl9MOIJEe-EAu7TQH7SBw" base_NamedElement="_ZrkIAOIJEe-EAu7TQH7SBw" id="1.1.3.1.3" text="Les robots du système doivent pouvoir se déplacer dans l'entrepôt." base_Class="_ZrkIAOIJEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_q65h0OIJEe-EAu7TQH7SBw" base_NamedElement="_q63FkOIJEe-EAu7TQH7SBw" id="1.1.3.1" text="Le système doit fonctionner avec une flotte de robots mobiles." base_Class="_q63FkOIJEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_zzZzkOIJEe-EAu7TQH7SBw" base_NamedElement="_zzX-YOIJEe-EAu7TQH7SBw" id="1.1.3.1.3.1" text="Les robots du système ne doivent pas se croiser dans les allées de l'entrepôt" base_Class="_zzX-YOIJEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_DKOMkOIKEe-EAu7TQH7SBw" base_NamedElement="_DKMXYOIKEe-EAu7TQH7SBw" id="1.3" text="Le système doit être capable de fonctionner seul, sans intervention extérieure." base_Class="_DKMXYOIKEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_N8LTQOIKEe-EAu7TQH7SBw" base_NamedElement="_N8JeEOIKEe-EAu7TQH7SBw" id="1.1.3.1.2" text="Le système doit permettre aux opérateurs d'ajuster le nombre de robot en plein fonctionnement." base_Class="_N8JeEOIKEe-EAu7TQH7SBw"/>
   <Requirements:Requirement xmi:id="_ThIJkOIKEe-EAu7TQH7SBw" base_NamedElement="_ThGUYOIKEe-EAu7TQH7SBw" id="4" text="Le système doit permettre la maintenance" base_Class="_ThGUYOIKEe-EAu7TQH7SBw"/>
-  <Requirements:Requirement xmi:id="_svwN0OINEe-EAu7TQH7SBw" base_NamedElement="_svtxkOINEe-EAu7TQH7SBw" id="1.1.1.2" text="Le système doit pouvoir transporter 0,1 ou 2 objets." base_Class="_svtxkOINEe-EAu7TQH7SBw"/>
+  <Requirements:Requirement xmi:id="_svwN0OINEe-EAu7TQH7SBw" base_NamedElement="_svtxkOINEe-EAu7TQH7SBw" id="1.1.3.2" text="Le système doit pouvoir transporter 0,1 ou 2 objets." base_Class="_svtxkOINEe-EAu7TQH7SBw"/>
   <Requirements:Requirement xmi:id="_QK5QwOIOEe-EAu7TQH7SBw" base_NamedElement="_QK20gOIOEe-EAu7TQH7SBw" id="1.1.2" text="Le système doit pouvoir contrôler les entrées et sorties des produits de manière optimisé (en minimisant les déplacements dans l'entrepôt).&#xD;&#xA;" base_Class="_QK20gOIOEe-EAu7TQH7SBw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_XPvT0OLPEe-WBaF1b5xkaw" base_Class="_sASnEOLOEe-WBaF1b5xkaw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Block:System xmi:id="_aoFvsOLPEe-WBaF1b5xkaw" base_Class="_di1w8OLMEe-WBaF1b5xkaw"/>
-  <Requirements:Requirement xmi:id="_AI_bEOMZEe-MXuvbNV2Jqw" base_NamedElement="_AIwKgOMZEe-MXuvbNV2Jqw" id="1.1" text="Le système doit pouvoir gérer l'entrée de nouveaux produits dans les stocks." base_Class="_AIwKgOMZEe-MXuvbNV2Jqw"/>
-  <Requirements:Requirement xmi:id="_I2sLAOMZEe-MXuvbNV2Jqw" base_NamedElement="_I2pHsOMZEe-MXuvbNV2Jqw" id="1.4.1" text="Le système doit posséder un mode manuel permettant aux opérateurs d'intervenir en cas de problème. " base_Class="_I2pHsOMZEe-MXuvbNV2Jqw"/>
-  <Requirements:Requirement xmi:id="_fTJJ8OMZEe-MXuvbNV2Jqw" base_NamedElement="_fTGtsOMZEe-MXuvbNV2Jqw" id="1.1.3" text="Le système doit pouvoir apporter/ranger les produits choisi à/par un opérateur." base_Class="_fTGtsOMZEe-MXuvbNV2Jqw"/>
+  <Requirements:Requirement xmi:id="_I2sLAOMZEe-MXuvbNV2Jqw" base_NamedElement="_I2pHsOMZEe-MXuvbNV2Jqw" id="1.3.1" text="Le système doit posséder un mode manuel permettant aux opérateurs d'intervenir en cas de problème. " base_Class="_I2pHsOMZEe-MXuvbNV2Jqw"/>
+  <Requirements:Requirement xmi:id="_fTJJ8OMZEe-MXuvbNV2Jqw" base_NamedElement="_fTGtsOMZEe-MXuvbNV2Jqw" id="1.1.1" text="Le système doit pouvoir apporter/ranger les produits choisi à/par un opérateur." base_Class="_fTGtsOMZEe-MXuvbNV2Jqw"/>
   <Requirements:Requirement xmi:id="_0xwnoOMZEe-MXuvbNV2Jqw" base_NamedElement="_0xuycOMZEe-MXuvbNV2Jqw" id="2" text="Le système doit pouvoir être installé" base_Class="_0xuycOMZEe-MXuvbNV2Jqw"/>
-  <Requirements:Requirement xmi:id="_7W3TYOMZEe-MXuvbNV2Jqw" base_NamedElement="_7W1eMOMZEe-MXuvbNV2Jqw" id="1.3" text="Le système doit permettre d'afficher ses informations." base_Class="_7W1eMOMZEe-MXuvbNV2Jqw"/>
+  <Requirements:Requirement xmi:id="_7W3TYOMZEe-MXuvbNV2Jqw" base_NamedElement="_7W1eMOMZEe-MXuvbNV2Jqw" id="1.2" text="Le système doit permettre d'afficher ses informations." base_Class="_7W1eMOMZEe-MXuvbNV2Jqw"/>
   <Requirements:Requirement xmi:id="_c9PXoOMbEe-MXuvbNV2Jqw" base_NamedElement="_c9M7YOMbEe-MXuvbNV2Jqw" id="4.1" text="Le système doit pouvoir être mis à jour" base_Class="_c9M7YOMbEe-MXuvbNV2Jqw"/>
-  <Requirements:Requirement xmi:id="_m_8LoOMbEe-MXuvbNV2Jqw" base_NamedElement="_m_5vYOMbEe-MXuvbNV2Jqw" id="1.1.1.1.4" text="Les robots du système doivent pouvoir être réparés sans arrêt complet du système" base_Class="_m_5vYOMbEe-MXuvbNV2Jqw"/>
-  <Requirements:Requirement xmi:id="_2z9eAOMbEe-MXuvbNV2Jqw" base_NamedElement="_2z7o0OMbEe-MXuvbNV2Jqw" id="1.1.1" text="Le système doit pouvoir attraper un ou plusieurs objet(s) et le(s) transporter" base_Class="_2z7o0OMbEe-MXuvbNV2Jqw"/>
+  <Requirements:Requirement xmi:id="_m_8LoOMbEe-MXuvbNV2Jqw" base_NamedElement="_m_5vYOMbEe-MXuvbNV2Jqw" id="1.1.3.1.4" text="Les robots du système doivent pouvoir être réparés sans arrêt complet du système" base_Class="_m_5vYOMbEe-MXuvbNV2Jqw"/>
+  <Requirements:Requirement xmi:id="_2z9eAOMbEe-MXuvbNV2Jqw" base_NamedElement="_2z7o0OMbEe-MXuvbNV2Jqw" id="1.1.3" text="Le système doit pouvoir attraper un ou plusieurs objet(s) et le(s) transporter" base_Class="_2z7o0OMbEe-MXuvbNV2Jqw"/>
   <Requirements:Requirement xmi:id="_LiEEwOMcEe-MXuvbNV2Jqw" base_NamedElement="_LiBogOMcEe-MXuvbNV2Jqw" id="3" text="Le système doit permettre aux développeurs  d'effectuer des tests" base_Class="_LiBogOMcEe-MXuvbNV2Jqw"/>
-  <Requirements:Requirement xmi:id="_tsLksOMcEe-MXuvbNV2Jqw" base_NamedElement="_tsJIcOMcEe-MXuvbNV2Jqw" id="1.3.1" text="Le système doit permettre à un utilisateur de pouvoir consulter son état à distance" base_Class="_tsJIcOMcEe-MXuvbNV2Jqw"/>
-  <Requirements:Requirement xmi:id="_bsrx4OMfEe-MXuvbNV2Jqw" base_NamedElement="_bsoukOMfEe-MXuvbNV2Jqw" id="1.2" text="Le système doit pouvoir sortir des produits des stocks et les amener dans les bacs de collecte" base_Class="_bsoukOMfEe-MXuvbNV2Jqw"/>
+  <Requirements:Requirement xmi:id="_tsLksOMcEe-MXuvbNV2Jqw" base_NamedElement="_tsJIcOMcEe-MXuvbNV2Jqw" id="1.2.1" text="Le système doit permettre à un utilisateur de pouvoir consulter son état à distance" base_Class="_tsJIcOMcEe-MXuvbNV2Jqw"/>
+  <Requirements:Requirement xmi:id="_bsrx4OMfEe-MXuvbNV2Jqw" base_NamedElement="_bsoukOMfEe-MXuvbNV2Jqw" id="1.1" text="Le système doit pouvoir gérer l'entrée et la sortie de produits des stocks." base_Class="_bsoukOMfEe-MXuvbNV2Jqw"/>
   <Requirements:DeriveReqt xmi:id="_cqQ60OMnEe-MXuvbNV2Jqw" base_DirectedRelationship="_cqPFoOMnEe-MXuvbNV2Jqw" base_Abstraction="_cqPFoOMnEe-MXuvbNV2Jqw"/>
   <Requirements:Refine xmi:id="_coNP4OMoEe-MXuvbNV2Jqw" base_DirectedRelationship="_coLasOMoEe-MXuvbNV2Jqw" base_Abstraction="_coLasOMoEe-MXuvbNV2Jqw"/>
   <__SysML_Centrale_Lille.NonNormativeExtensions.Actors:Externalsystem xmi:id="_ECLmwORkEe-uIujTQgGQfg" base_Class="_5Y23oORjEe-uIujTQgGQfg"/>
