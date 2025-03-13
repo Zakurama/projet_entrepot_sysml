@@ -800,15 +800,15 @@ X l'allé du produit et Y le bac (en somme l'emplacement de l'article)</body>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UnD8EOlLEe-W3KYcEVLO5w" name="Message4SendEvent" covered="_HAZ5IOlLEe-W3KYcEVLO5w" message="_UnA4wOlLEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UnD8EelLEe-W3KYcEVLO5w" name="Message4ReceiveEvent" covered="_KsJLEOlLEe-W3KYcEVLO5w" message="_UnA4wOlLEe-W3KYcEVLO5w"/>
         <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Yi9w8OlLEe-W3KYcEVLO5w" name="ActionExecutionSpecification7" covered="_KsJLEOlLEe-W3KYcEVLO5w" finish="_u5V9EOlLEe-W3KYcEVLO5w" start="_UnD8EelLEe-W3KYcEVLO5w"/>
-        <fragment xmi:type="uml:CombinedFragment" xmi:id="_-OFIAPZoEe-M56txYdNlXQ" name="CombinedFragment27" covered="_HAZ5IOlLEe-W3KYcEVLO5w _KsJLEOlLEe-W3KYcEVLO5w _M6i8UOlLEe-W3KYcEVLO5w" interactionOperator="alt">
-          <operand xmi:type="uml:InteractionOperand" xmi:id="_-OMcwPZoEe-M56txYdNlXQ" name="InteractionOperand0" covered="_HAZ5IOlLEe-W3KYcEVLO5w _KsJLEOlLEe-W3KYcEVLO5w">
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_-OFIAPZoEe-M56txYdNlXQ" name="CombinedFragment27" covered="_M6i8UOlLEe-W3KYcEVLO5w _KsJLEOlLEe-W3KYcEVLO5w _HAZ5IOlLEe-W3KYcEVLO5w" interactionOperator="alt">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_-OMcwPZoEe-M56txYdNlXQ" name="InteractionOperand0" covered="_KsJLEOlLEe-W3KYcEVLO5w _HAZ5IOlLEe-W3KYcEVLO5w">
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u5V9EOlLEe-W3KYcEVLO5w" name="Message9SendEvent" covered="_KsJLEOlLEe-W3KYcEVLO5w" message="_u5VWAOlLEe-W3KYcEVLO5w"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_u5WkIOlLEe-W3KYcEVLO5w" name="Message9ReceiveEvent" covered="_HAZ5IOlLEe-W3KYcEVLO5w" message="_u5VWAOlLEe-W3KYcEVLO5w"/>
             <guard xmi:type="uml:InteractionConstraint" xmi:id="_-OMcwfZoEe-M56txYdNlXQ" name="guard" visibility="public">
               <specification xmi:type="uml:LiteralString" xmi:id="_oq4aYPZqEe-M56txYdNlXQ" value="Error"/>
             </guard>
           </operand>
-          <operand xmi:type="uml:InteractionOperand" xmi:id="_Qouo8PZqEe-M56txYdNlXQ" name="InteractionOperand2" covered="_HAZ5IOlLEe-W3KYcEVLO5w _KsJLEOlLEe-W3KYcEVLO5w _M6i8UOlLEe-W3KYcEVLO5w">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_Qouo8PZqEe-M56txYdNlXQ" name="InteractionOperand2" covered="_M6i8UOlLEe-W3KYcEVLO5w _KsJLEOlLEe-W3KYcEVLO5w _HAZ5IOlLEe-W3KYcEVLO5w">
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_C3YY0elMEe-W3KYcEVLO5w" name="Message11ReceiveEvent" covered="_KsJLEOlLEe-W3KYcEVLO5w"/>
             <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_EmHLgOlMEe-W3KYcEVLO5w" name="ActionExecutionSpecification14" covered="_KsJLEOlLEe-W3KYcEVLO5w" finish="_OoZIwelMEe-W3KYcEVLO5w" start="_C3YY0elMEe-W3KYcEVLO5w"/>
             <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_IcuQsOlMEe-W3KYcEVLO5w" name="Message16SendEvent" covered="_KsJLEOlLEe-W3KYcEVLO5w" message="_IctCkOlMEe-W3KYcEVLO5w"/>
@@ -1184,6 +1184,69 @@ bleu = information</body>
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wbvE0PEKEe-BJtTCb590xQ" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wbvE0fEKEe-BJtTCb590xQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_E83FsP-UEe-nHPBGWtxeLA" name="Sequence_diagrams_robot">
+      <packagedElement xmi:type="uml:Interaction" xmi:id="_4_v-AP-UEe-nHPBGWtxeLA" name="Communication Serial entre Arduino et Raspberry pi">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_8dFVoP-WEe-nHPBGWtxeLA">
+          <body>etat_actuel = RECEPTION_WAYPOINTS</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_K7aAYP-XEe-nHPBGWtxeLA">
+          <body>etat_actuel = INITIALISATION_TRAJ</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ZDU9UP-XEe-nHPBGWtxeLA">
+          <body>etat_actuel = EXECUTION_TRAJ</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_8GeFEP-ZEe-nHPBGWtxeLA">
+          <body> etat_actuel = ENVOI_FIN;</body>
+        </ownedComment>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_pcxi4P-VEe-nHPBGWtxeLA" name="Raspberry Pi (Serial)" coveredBy="_2VkaQP-VEe-nHPBGWtxeLA _2WfAQP-VEe-nHPBGWtxeLA _q_BRYP-YEe-nHPBGWtxeLA _q_KbUP-YEe-nHPBGWtxeLA _rMkaoP-XEe-nHPBGWtxeLA _rODBUP-XEe-nHPBGWtxeLA _I62L8P-ZEe-nHPBGWtxeLA _I65PQP-ZEe-nHPBGWtxeLA _V-j54P-ZEe-nHPBGWtxeLA _WAHZEP-ZEe-nHPBGWtxeLA _Q8BXoP-aEe-nHPBGWtxeLA _2WUoMP-VEe-nHPBGWtxeLA _rN86sP-XEe-nHPBGWtxeLA _LFNnMP-YEe-nHPBGWtxeLA _WABScP-ZEe-nHPBGWtxeLA"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_vYTGIP-VEe-nHPBGWtxeLA" name=" Arduino (Serial)" coveredBy="_2VjzMP-VEe-nHPBGWtxeLA _2WfnUP-VEe-nHPBGWtxeLA _rMjMgP-XEe-nHPBGWtxeLA _rODoYP-XEe-nHPBGWtxeLA _V-jS0P-ZEe-nHPBGWtxeLA _WAHZEf-ZEe-nHPBGWtxeLA _o0GcgP-ZEe-nHPBGWtxeLA _o0HqoP-ZEe-nHPBGWtxeLA _o13XEP-ZEe-nHPBGWtxeLA _o13-IP-ZEe-nHPBGWtxeLA _Q8AwkP-aEe-nHPBGWtxeLA _o1x3gP-ZEe-nHPBGWtxeLA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2VjzMP-VEe-nHPBGWtxeLA" name="Message3SendEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_2VcecP-VEe-nHPBGWtxeLA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2VkaQP-VEe-nHPBGWtxeLA" name="Message3ReceiveEvent" covered="_pcxi4P-VEe-nHPBGWtxeLA" message="_2VcecP-VEe-nHPBGWtxeLA"/>
+        <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_2WUoMP-VEe-nHPBGWtxeLA" name="BehaviorExecutionSpecification6" covered="_pcxi4P-VEe-nHPBGWtxeLA" finish="_2WfAQP-VEe-nHPBGWtxeLA" start="_2VkaQP-VEe-nHPBGWtxeLA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2WfAQP-VEe-nHPBGWtxeLA" name="Message8SendEvent" covered="_pcxi4P-VEe-nHPBGWtxeLA" message="_2WdyIP-VEe-nHPBGWtxeLA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2WfnUP-VEe-nHPBGWtxeLA" name="Message8ReceiveEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_2WdyIP-VEe-nHPBGWtxeLA"/>
+        <fragment xmi:type="uml:CombinedFragment" xmi:id="_q_BRYP-YEe-nHPBGWtxeLA" name="loop arduino" covered="_pcxi4P-VEe-nHPBGWtxeLA" interactionOperator="loop">
+          <operand xmi:type="uml:InteractionOperand" xmi:id="_q_KbUP-YEe-nHPBGWtxeLA" name="InteractionOperand0" covered="_pcxi4P-VEe-nHPBGWtxeLA">
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rMjMgP-XEe-nHPBGWtxeLA" name="Message13SendEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_rMgwQP-XEe-nHPBGWtxeLA"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rMkaoP-XEe-nHPBGWtxeLA" name="Message13ReceiveEvent" covered="_pcxi4P-VEe-nHPBGWtxeLA" message="_rMgwQP-XEe-nHPBGWtxeLA"/>
+            <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_rN86sP-XEe-nHPBGWtxeLA" name="BehaviorExecutionSpecification16" covered="_pcxi4P-VEe-nHPBGWtxeLA" finish="_rODBUP-XEe-nHPBGWtxeLA" start="_rMkaoP-XEe-nHPBGWtxeLA"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rODBUP-XEe-nHPBGWtxeLA" name="Message18SendEvent" covered="_pcxi4P-VEe-nHPBGWtxeLA" message="_rOBzMP-XEe-nHPBGWtxeLA"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rODoYP-XEe-nHPBGWtxeLA" name="Message18ReceiveEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_rOBzMP-XEe-nHPBGWtxeLA"/>
+            <fragment xmi:type="uml:CombinedFragment" xmi:id="_I62L8P-ZEe-nHPBGWtxeLA" name="CombinedFragment17" covered="_pcxi4P-VEe-nHPBGWtxeLA" interactionOperator="loop">
+              <operand xmi:type="uml:InteractionOperand" xmi:id="_I65PQP-ZEe-nHPBGWtxeLA" name="InteractionOperand0" covered="_pcxi4P-VEe-nHPBGWtxeLA">
+                <ownedRule xmi:type="uml:TimeConstraint" xmi:id="_r1YcMP-ZEe-nHPBGWtxeLA" name="nb_waypoints * 10 s" constrainedElement="_o0GcgP-ZEe-nHPBGWtxeLA">
+                  <specification xmi:type="uml:TimeInterval" xmi:id="_r1bfgP-ZEe-nHPBGWtxeLA"/>
+                </ownedRule>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_V-jS0P-ZEe-nHPBGWtxeLA" name="Message17SendEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_V-g2kP-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_V-j54P-ZEe-nHPBGWtxeLA" name="Message17ReceiveEvent" covered="_pcxi4P-VEe-nHPBGWtxeLA" message="_V-g2kP-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_WABScP-ZEe-nHPBGWtxeLA" name="BehaviorExecutionSpecification20" covered="_pcxi4P-VEe-nHPBGWtxeLA" finish="_WAHZEP-ZEe-nHPBGWtxeLA" start="_V-j54P-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WAHZEP-ZEe-nHPBGWtxeLA" name="Message22SendEvent" covered="_pcxi4P-VEe-nHPBGWtxeLA" message="_WAGyAP-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WAHZEf-ZEe-nHPBGWtxeLA" name="Message22ReceiveEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_WAGyAP-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_o0GcgP-ZEe-nHPBGWtxeLA" name="Message19SendEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_o0EAQP-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_o1x3gP-ZEe-nHPBGWtxeLA" name="BehaviorExecutionSpecification22" covered="_vYTGIP-VEe-nHPBGWtxeLA" finish="_o13XEP-ZEe-nHPBGWtxeLA" start="_o0GcgP-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_o0HqoP-ZEe-nHPBGWtxeLA" name="Message19ReceiveEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_o0EAQP-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_o13XEP-ZEe-nHPBGWtxeLA" name="Message24SendEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_o12I8P-ZEe-nHPBGWtxeLA"/>
+                <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_o13-IP-ZEe-nHPBGWtxeLA" name="Message24ReceiveEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_o12I8P-ZEe-nHPBGWtxeLA"/>
+                <guard xmi:type="uml:InteractionConstraint" xmi:id="_I65PQf-ZEe-nHPBGWtxeLA" name="guard"/>
+              </operand>
+            </fragment>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Q8AwkP-aEe-nHPBGWtxeLA" name="Message22SendEvent" covered="_vYTGIP-VEe-nHPBGWtxeLA" message="_Q7_icP-aEe-nHPBGWtxeLA"/>
+            <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Q8BXoP-aEe-nHPBGWtxeLA" name="Message22ReceiveEvent" covered="_pcxi4P-VEe-nHPBGWtxeLA" message="_Q7_icP-aEe-nHPBGWtxeLA"/>
+            <guard xmi:type="uml:InteractionConstraint" xmi:id="_q_KbUf-YEe-nHPBGWtxeLA" name="guard"/>
+          </operand>
+        </fragment>
+        <fragment xmi:type="uml:InteractionUse" xmi:id="_LFNnMP-YEe-nHPBGWtxeLA" name="loop" covered="_pcxi4P-VEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_2VcecP-VEe-nHPBGWtxeLA" name="marvelmindsetup()  -   &quot;p\n&quot;" receiveEvent="_2VkaQP-VEe-nHPBGWtxeLA" sendEvent="_2VjzMP-VEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_2WdyIP-VEe-nHPBGWtxeLA" name="x:%d,y:%d" messageSort="reply" receiveEvent="_2WfnUP-VEe-nHPBGWtxeLA" sendEvent="_2WfAQP-VEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_rMgwQP-XEe-nHPBGWtxeLA" name="readwaypoints() -  &quot;w\n&quot;" receiveEvent="_rMkaoP-XEe-nHPBGWtxeLA" sendEvent="_rMjMgP-XEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_rOBzMP-XEe-nHPBGWtxeLA" name="&quot;%d,%d;%d,%d;...&quot;" messageSort="reply" receiveEvent="_rODoYP-XEe-nHPBGWtxeLA" sendEvent="_rODBUP-XEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_V-g2kP-ZEe-nHPBGWtxeLA" name="readmarvelmind()  -  &quot;p\n&quot;" receiveEvent="_V-j54P-ZEe-nHPBGWtxeLA" sendEvent="_V-jS0P-ZEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_WAGyAP-ZEe-nHPBGWtxeLA" name="x:%d,y:%d" messageSort="reply" receiveEvent="_WAHZEf-ZEe-nHPBGWtxeLA" sendEvent="_WAHZEP-ZEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_o0EAQP-ZEe-nHPBGWtxeLA" receiveEvent="_o0HqoP-ZEe-nHPBGWtxeLA" sendEvent="_o0GcgP-ZEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_o12I8P-ZEe-nHPBGWtxeLA" messageSort="reply" receiveEvent="_o13-IP-ZEe-nHPBGWtxeLA" sendEvent="_o13XEP-ZEe-nHPBGWtxeLA"/>
+        <message xmi:type="uml:Message" xmi:id="_Q7_icP-aEe-nHPBGWtxeLA" name="&quot;f\n&quot;" messageSort="asynchCall" receiveEvent="_Q8BXoP-aEe-nHPBGWtxeLA" sendEvent="_Q8AwkP-aEe-nHPBGWtxeLA"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_bhr_UOINEe-EAu7TQH7SBw">
